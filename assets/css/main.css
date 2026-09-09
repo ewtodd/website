@@ -1,0 +1,129 @@
+/*
+ * Kanagawa base16, matching doc/theme/custom.css in the Analysis-Utilities
+ * repository so the portfolio and the API reference read as one system.
+ * Dark only, as there.
+ */
+
+:root {
+    --base00: #1F1F28;
+    --base01: #16161D;
+    --base02: #223249;
+    --base03: #54546D;
+    --base04: #727169;
+    --base05: #DCD7BA;
+    --base06: #C8C093;
+    --base08: #C34043;
+    --base09: #FFA066;
+    --base0A: #C0A36E;
+    --base0B: #76946A;
+    --base0C: #6A9589;
+    --base0D: #7E9CD8;
+    --base0E: #957FB8;
+
+    --measure: 44rem;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, sans-serif;
+    --mono: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--base00);
+    color: var(--base05);
+    font-family: var(--font);
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+a { color: var(--base0D); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--base06); }
+
+.wrap { max-width: var(--measure); margin: 0 auto; padding: 0 1.25rem; }
+
+/* --- hero ------------------------------------------------------------- */
+.hero {
+    position: relative;
+    padding: 6rem 0 4.5rem;
+    background-image: url("/images/work.webp");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid var(--base03);
+}
+/* The wallpaper is high-contrast; the scrim is what keeps the title legible
+   over the pale cloud regions rather than only over the dark branches. */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+                rgba(31, 31, 40, .55) 0%,
+                rgba(31, 31, 40, .80) 70%,
+                var(--base00) 100%);
+}
+.hero > * { position: relative; }
+.hero h1 { margin: 0 0 .4rem; font-size: 2.6rem; letter-spacing: -.02em; }
+.hero p  { margin: 0; color: var(--base06); font-size: 1.1rem; }
+
+/* --- nav -------------------------------------------------------------- */
+.nav {
+    border-bottom: 1px solid var(--base03);
+    background: var(--base01);
+    font-size: .95rem;
+}
+.nav .wrap { display: flex; gap: 1.5rem; align-items: center; height: 3rem; }
+.nav a { color: var(--base05); text-decoration: none; }
+.nav a:hover { color: var(--base0D); }
+.nav .brand { font-weight: 600; margin-right: auto; }
+
+/* --- content ---------------------------------------------------------- */
+main { padding: 3rem 0 5rem; }
+h2 { margin-top: 2.5rem; font-size: 1.5rem; color: var(--base06); }
+h3 { margin-top: 2rem; font-size: 1.15rem; color: var(--base06); }
+
+code {
+    font-family: var(--mono);
+    font-size: .88em;
+    background: var(--base01);
+    padding: .12em .35em;
+    border-radius: 4px;
+}
+pre {
+    background: var(--base01);
+    border: 1px solid var(--base03);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+pre code { background: none; padding: 0; }
+
+blockquote {
+    margin: 1.5rem 0;
+    padding: .75rem 1rem;
+    border-left: 3px solid var(--base09);
+    background: var(--base01);
+    color: var(--base06);
+}
+
+.card-list { list-style: none; padding: 0; }
+.card {
+    display: block;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--base03);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .15s ease;
+}
+.card:hover { border-color: var(--base0D); }
+.card h3 { margin: 0 0 .35rem; color: var(--base0D); }
+.card p  { margin: 0; color: var(--base04); font-size: .95rem; }
+
+footer {
+    border-top: 1px solid var(--base03);
+    padding: 2rem 0;
+    color: var(--base04);
+    font-size: .9rem;
+}

@@ -1,0 +1,4 @@
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+  {{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+</div></nav>

@@ -1,0 +1,20 @@
+baseURL = "https://ethanwtodd.com/"
+locale = "en-us"
+title = "Ethan Todd"
+
+# No theme and no npm on purpose: the layouts under layouts/ are small enough to
+# own outright, and this keeps the site buildable with nothing but the `hugo`
+# binary already in the dev shell.
+
+[params]
+  description = "Nuclear measurement, detector physics, and the software around them."
+  apiDocsURL = "https://au.ethanwtodd.com"
+
+[markup.highlight]
+  noClasses = false
+  style = "nord"
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
