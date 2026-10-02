@@ -22,11 +22,11 @@
     "curriculum-vitae": {
       "flake": false,
       "locked": {
-        "lastModified": 1787671524,
-        "narHash": "sha256-Crh8L59dY22jp7BX0tLPJbrDSVWAe3ZQ+IXKd4nOaTU=",
+        "lastModified": 1790901314,
+        "narHash": "sha256-NoyWR5Q78AgHq0+plUTSMDIsYyTfR0l6E+calQhhF1o=",
         "owner": "ewtodd",
         "repo": "Curriculum-Vitae",
-        "rev": "3216ef0adc441c31bb77cace15ef81ce5bcda486",
+        "rev": "7b49da7a642fcedfc0e72271fedb34706953be1a",
         "type": "github"
       },
       "original": {
