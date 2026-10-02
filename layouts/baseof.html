@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.Locale "en" }}" data-theme="dark">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  {{ partial "nav.html" . }}
+  {{ block "hero" . }}{{ end }}
+  <main id="content">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+  {{ with resources.Get "js/site.js" | minify | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{ end }}
+</body>
+</html>

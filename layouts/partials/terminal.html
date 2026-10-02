@@ -1,0 +1,21 @@
+{{- /*
+  A terminal panel. Expects "title", optional "animate", and "lines": a slice
+  of dicts, each with one of
+
+      p + c   prompt and command
+      o       program output
+      k       a highlighted result line
+      m       a comment
+
+  Content is written into the markup, so the panel is complete with scripting
+  off; "animate" only asks site.js to bring the lines in one at a time.
+*/ -}}
+<div class="term" {{ if .animate }}data-term-animate{{ end }}>
+  <div class="term-bar" aria-hidden="true">
+    <i></i><i></i><i></i>
+    <span class="title">{{ .title }}</span>
+  </div>
+  <pre class="term-body"><code>{{ range .lines -}}
+<span class="ln">{{ with .p }}<span class="p">{{ . }}</span> {{ end }}{{ with .c }}<span class="c">{{ . }}</span>{{ end }}{{ with .o }}<span class="o">{{ . }}</span>{{ end }}{{ with .k }}<span class="k">{{ . }}</span>{{ end }}{{ with .m }}<span class="m">{{ . }}</span>{{ end }}</span>
+{{ end -}}</code></pre>
+</div>

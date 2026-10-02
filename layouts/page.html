@@ -1,0 +1,45 @@
+{{ define "hero" }}
+<header class="pagehead"><div class="wrap">
+  {{ with .Parent }}
+    {{ if not .IsHome }}<a class="backlink" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+  {{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+  {{ if or .Params.repo .Params.docs }}
+    <div class="btn-row">
+      {{ with .Params.repo }}<a class="btn btn-primary" href="{{ . }}" rel="noopener">Source ↗</a>{{ end }}
+      {{ with .Params.docs }}<a class="btn" href="{{ . }}" rel="noopener">Documentation ↗</a>{{ end }}
+    </div>
+  {{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+<section class="section">
+  <div class="wrap">
+    <div class="withaside">
+      <article class="prose reveal">{{ .Content }}</article>
+
+      {{ if or .Params.stack .Params.repo }}
+        <aside class="aside reveal">
+          <h2>Specification</h2>
+          <dl class="spec">
+            {{ with .Params.status }}<dt>Status</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.role }}<dt>Role</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.stack }}
+              <dt>Built with</dt>
+              <dd><div class="chips">{{ range . }}<span class="chip">{{ . }}</span>{{ end }}</div></dd>
+            {{ end }}
+            {{ with .Params.license }}<dt>License</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.host }}<dt>Runs on</dt><dd>{{ . }}</dd>{{ end }}
+          </dl>
+          <div class="links">
+            {{ with .Params.repo }}<a class="btn" href="{{ . }}" rel="noopener">Source ↗</a>{{ end }}
+            {{ with .Params.docs }}<a class="btn" href="{{ . }}" rel="noopener">Docs ↗</a>{{ end }}
+          </div>
+        </aside>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

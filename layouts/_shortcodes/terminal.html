@@ -1,0 +1,33 @@
+{{- /*
+  Terminal panel for use inside markdown:
+
+      {{< terminal title="e-work@e-desktop — build" >}}
+      $ nix build .#docs
+      result/html/index.html
+      ! 0 doxygen warnings
+      # the build fails if there are any
+      {{< /terminal >}}
+
+  A leading "$" is a command, "!" a highlighted result, "#" a comment, and
+  anything else is program output.
+*/ -}}
+{{- $lines := slice -}}
+{{- /* Not piped: `split` takes (string, delimiter) in that order, and a pipe
+       would hand it the text as the delimiter. */ -}}
+{{- range (split (trim (string .Inner) "\n") "\n") -}}
+  {{- $raw := . -}}
+  {{- $t := trim $raw " " -}}
+  {{- if hasPrefix $t "$ " -}}
+    {{- $lines = $lines | append (dict "p" "$" "c" (strings.TrimPrefix "$ " $t)) -}}
+  {{- else if hasPrefix $t "! " -}}
+    {{- $lines = $lines | append (dict "k" (strings.TrimPrefix "! " $t)) -}}
+  {{- else if hasPrefix $t "# " -}}
+    {{- $lines = $lines | append (dict "m" $t) -}}
+  {{- else -}}
+    {{- $lines = $lines | append (dict "o" $raw) -}}
+  {{- end -}}
+{{- end -}}
+{{ partial "terminal.html" (dict
+     "title" (.Get "title" | default "shell")
+     "animate" (eq (.Get "animate") "true")
+     "lines" $lines) }}

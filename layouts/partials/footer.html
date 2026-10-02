@@ -1,0 +1,34 @@
+{{- $projects := where site.RegularPages "Section" "projects" -}}
+<footer class="site"><div class="wrap">
+  <div class="cols">
+    <div class="col">
+      <span class="anno">Projects</span>
+      <ul>
+        {{ range $projects.ByWeight }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="col">
+      <span class="anno">Elsewhere</span>
+      <ul>
+        <li><a href="{{ site.Params.docsURL }}" rel="noopener">API documentation</a></li>
+        <li><a href="{{ site.Params.github }}" rel="noopener">github.com/{{ site.Params.githubUser }}</a></li>
+        <li><a href="https://orcid.org/{{ site.Params.orcid }}" rel="noopener">ORCID {{ site.Params.orcid }}</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <span class="anno">Contact</span>
+      <ul>
+        <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li>
+        <li><a href="{{ "/cv/" | relURL }}">Curriculum vitae</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="colophon">
+    <span>© {{ now.Year }} Ethan Todd</span>
+    <span>Built with Hugo, served from a Nix store path</span>
+    <span>Kanagawa</span>
+  </div>
+</div></footer>

@@ -1,0 +1,8 @@
+{{- /*
+  A drawing-sheet annotation: dashed leader, an optional index, and a label.
+  Called as: {{ partial "eyebrow.html" (dict "idx" "01" "label" "Projects") }}
+*/ -}}
+<p class="eyebrow anno">
+  {{- with .idx }}<span class="idx">{{ . }}</span> · {{ end -}}
+  {{ .label }}
+</p>

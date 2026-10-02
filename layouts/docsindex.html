@@ -1,0 +1,68 @@
+{{- /*
+  The index of published API references.
+
+  This one page is served from two hostnames: as /docs/ on ethanwtodd.com, and
+  as the root of docs.ethanwtodd.com, where `nix build .#docs` copies it next to
+  the generated Doxygen sites. So it has to be correct with no site-relative
+  anything — the stylesheet is inlined rather than linked, every link is
+  absolute, and it does not use the site's baseof template.
+*/ -}}
+{{- $css := resources.Get "css/main.css" | minify -}}
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation · ethanwtodd.com</title>
+<meta name="description" content="{{ .Description }}">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="{{ site.Params.themeColor }}">
+<link rel="canonical" href="{{ site.Params.docsURL }}/">
+<style>{{ $css.Content | safeCSS }}</style>
+</head>
+<body>
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="{{ site.BaseURL }}"><span>ethanwtodd</span><span class="tld">.com</span></a>
+  <a href="{{ site.BaseURL }}projects/">Projects</a>
+  <a href="{{ site.BaseURL }}cv/">CV</a>
+  <span class="sep" aria-hidden="true"></span>
+  <a class="ext" href="{{ site.Params.github }}" rel="noopener">GitHub ↗</a>
+</div></nav>
+
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" "API reference") }}
+  <h1>{{ .Title }}</h1>
+  <p class="lede">{{ .Description }}</p>
+</div></header>
+
+<main><section class="section"><div class="wrap">
+  {{ with .Content }}<div class="prose" style="margin-bottom:2.5rem">{{ . }}</div>{{ end }}
+  <ul class="cards two">
+    {{ range $i, $p := (where (where site.RegularPages "Section" "projects") "Params.docs" "!=" nil).ByWeight }}
+      <li>
+        <a class="card ticked" href="{{ $p.Params.docs }}">
+          <div class="kicker">
+            <span class="anno">{{ printf "%02d" (add $i 1) }}</span>
+            {{ with $p.Params.docsKind }}<span class="chip on">{{ . }}</span>{{ end }}
+          </div>
+          <h3>{{ $p.Title }}</h3>
+          <p>{{ $p.Params.summary | default $p.Description }}</p>
+          <div class="tail"><div class="chips">
+            {{ range first 5 $p.Params.stack }}<span class="chip">{{ . }}</span>{{ end }}
+          </div></div>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</div></section></main>
+
+<footer class="site"><div class="wrap">
+  <div class="colophon">
+    <span>© {{ now.Year }} Ethan Todd</span>
+    <span><a href="{{ site.BaseURL }}">ethanwtodd.com</a></span>
+    <span><a href="{{ site.Params.github }}" rel="noopener">github.com/{{ site.Params.githubUser }}</a></span>
+    <span>Generated with Doxygen · served from a Nix store path</span>
+  </div>
+</div></footer>
+</body>
+</html>

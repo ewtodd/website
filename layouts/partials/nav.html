@@ -1,4 +1,14 @@
 <nav class="nav"><div class="wrap">
-  <a class="brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
-  {{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+  <a class="brand" href="{{ "/" | relURL }}">
+    <span>ethanwtodd</span><span class="tld">.com</span>
+  </a>
+  {{ range site.Menus.main }}
+    <a href="{{ .URL | relURL }}"
+       {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ else if $.HasMenuCurrent "main" . }}aria-current="true"{{ end }}>{{ .Name }}</a>
+  {{ end }}
+  <span class="sep" aria-hidden="true"></span>
+  {{ range site.Menus.external }}
+    <a class="ext" href="{{ .URL }}" rel="noopener">{{ .Name }} ↗</a>
+  {{ end }}
+  <span class="progress" aria-hidden="true"></span>
 </div></nav>

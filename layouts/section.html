@@ -1,0 +1,20 @@
+{{ define "hero" }}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" (printf "%d entries" (len .Pages))) }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+<section class="section">
+  <div class="wrap">
+    {{ with .Content }}<div class="prose reveal" style="margin-bottom:2.5rem">{{ . }}</div>{{ end }}
+    <ul class="cards two">
+      {{ range $i, $p := .Pages.ByWeight }}
+        {{ partial "project-card.html" (dict "page" $p "idx" (printf "%02d" (add $i 1)) "delay" (mul $i 70)) }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,23 @@
+{{- /*
+  One publication or presentation, from the generated cv.json. The title links
+  to a DOI or arXiv record when the bib entry has one, and shows a status badge
+  when it does not yet (under review, in press).
+*/ -}}
+<li>
+  <div>
+    <p class="ref-title">
+      {{- with .url -}}
+        <a href="{{ . }}" rel="noopener">{{ $.title | safeHTML }}</a>
+      {{- else -}}
+        {{ .title | safeHTML }}
+      {{- end -}}
+    </p>
+    <p class="ref-authors">{{ .authors | safeHTML }}</p>
+    <p class="ref-meta">
+      {{ with .venue }}<em>{{ . | safeHTML }}</em>{{ end }}
+      {{ with .year }}<span>{{ . }}</span>{{ end }}
+      {{ with .status }}<span class="badge">{{ . }}</span>{{ end }}
+      {{ with .doi }}<span>doi:{{ . }}</span>{{ end }}
+    </p>
+  </div>
+</li>

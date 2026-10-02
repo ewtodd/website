@@ -1,0 +1,522 @@
+/*
+ * Kanagawa theme for the generated API references.
+ *
+ * This is the published theme for every doxygen site under
+ * docs.ethanwtodd.com, and it is the only copy of it. `nix build .#docs` in
+ * this repository assembles that host: it copies each project's generated tree
+ * into place and overwrites the `custom.css` doxygen emitted from that
+ * project's own stylesheet with this file. The projects therefore carry only a
+ * palette, enough for their own local `nix build .#docs` to be legible, and the
+ * design is changed here, once, for all of them.
+ *
+ * Dark only, by design — there is no light variant and no theme toggle, so the
+ * palette is stated once and applies unconditionally.
+ *
+ * The 16 semantic colours are the Kanagawa base16 scheme by Tommaso Laurenzi
+ * (github.com/rebelot/kanagawa.nvim), used verbatim, and are the same ones
+ * main.css uses for the site itself. base16 has no slot for the muted callout
+ * fills doxygen-awesome needs, so those four come from the same upstream
+ * palette's winter* / sumiInk* ramps rather than being invented here.
+ *
+ * The triple selector is deliberate. doxygen-awesome.css ships its own
+ * `@media (prefers-color-scheme: dark) { html:not(.light-mode) { ... } }` block,
+ * which outranks a bare `:root`. Matching that specificity here — and loading
+ * after it — is what makes this palette win for visitors whose OS is set to
+ * dark, rather than silently falling back to the theme's default blue.
+ */
+
+:root,
+html:not(.light-mode),
+html.dark-mode {
+    /* --- Kanagawa base16 --------------------------------------------- */
+    --kanagawa-base00: #1F1F28;  /* sumiInk3   - page background      */
+    --kanagawa-base01: #16161D;  /* sumiInk0   - raised panels        */
+    --kanagawa-base02: #223249;  /* waveBlue1  - selection, headers   */
+    --kanagawa-base03: #54546D;  /* sumiInk6   - separators           */
+    --kanagawa-base04: #727169;  /* fujiGray   - secondary text       */
+    --kanagawa-base05: #DCD7BA;  /* fujiWhite  - body text            */
+    --kanagawa-base06: #C8C093;  /* oldWhite   - headings             */
+    --kanagawa-base07: #717C7C;  /* katanaGray                        */
+    --kanagawa-base08: #C34043;  /* autumnRed                         */
+    --kanagawa-base09: #FFA066;  /* surimiOrange                      */
+    --kanagawa-base0A: #C0A36E;  /* carpYellow                        */
+    --kanagawa-base0B: #76946A;  /* autumnGreen                       */
+    --kanagawa-base0C: #6A9589;  /* waveAqua1                         */
+    --kanagawa-base0D: #7E9CD8;  /* crystalBlue - links               */
+    --kanagawa-base0E: #957FB8;  /* oniViolet                         */
+    --kanagawa-base0F: #D27E99;  /* sakuraPink                        */
+
+    /* Muted fills for the callout boxes. base16 has no equivalent slot. */
+    --kanagawa-winter-blue:   #252535;
+    --kanagawa-winter-yellow: #49443C;
+    --kanagawa-winter-red:    #43242B;
+    --kanagawa-winter-green:  #2B3328;
+    --kanagawa-sumi-ink4:     #2A2A37;
+
+    /* --- accents ------------------------------------------------------ */
+    --primary-color:       var(--kanagawa-base0D);
+    --primary-dark-color:  var(--kanagawa-base06);
+    --primary-light-color: var(--kanagawa-base0C);
+    --on-primary-color:    var(--kanagawa-base00);
+    --link-color:          var(--kanagawa-base0D);
+
+    /* --- surfaces ----------------------------------------------------- */
+    --page-background-color:           var(--kanagawa-base00);
+    --page-foreground-color:           var(--kanagawa-base05);
+    --page-secondary-foreground-color: var(--kanagawa-base04);
+    --separator-color:                 var(--kanagawa-base03);
+    --side-nav-background:             var(--kanagawa-base01);
+    --side-nav-foreground:             var(--kanagawa-base05);
+    --header-background:               var(--kanagawa-base01);
+    --header-foreground:               var(--kanagawa-base05);
+    --toc-background:                  var(--kanagawa-base01);
+    --tablehead-background:            var(--kanagawa-base02);
+    --tablehead-foreground:            var(--kanagawa-base05);
+    --blockquote-background:           var(--kanagawa-base01);
+    --blockquote-foreground:           var(--kanagawa-base06);
+    --odd-color:                       rgba(84, 84, 109, .12);
+    --searchbar-background:            var(--kanagawa-base01);
+    --searchbar-foreground:            var(--kanagawa-base05);
+    --menu-focus-background:           var(--kanagawa-base02);
+    --menu-focus-foreground:           var(--kanagawa-base05);
+    --menu-selected-background:        var(--kanagawa-base02);
+
+    /* --- code --------------------------------------------------------- */
+    --code-background:  var(--kanagawa-base01);
+    --code-foreground:  var(--kanagawa-base05);
+    --section-code-background: var(--kanagawa-base01);
+    --section-code-border:     var(--kanagawa-base03);
+
+    --fragment-background:        var(--kanagawa-base01);
+    --fragment-foreground:        var(--kanagawa-base05);
+    --fragment-keyword:           var(--kanagawa-base0E);
+    --fragment-keywordtype:       var(--kanagawa-base0A);
+    --fragment-keywordflow:       var(--kanagawa-base0F);
+    --fragment-token:             var(--kanagawa-base0B);
+    --fragment-comment:           var(--kanagawa-base04);
+    --fragment-link:              var(--kanagawa-base0D);
+    --fragment-preprocessor:      var(--kanagawa-base09);
+    --fragment-linenumber-color:      var(--kanagawa-base03);
+    --fragment-linenumber-background: var(--kanagawa-base01);
+    --fragment-linenumber-border:     var(--kanagawa-base02);
+
+    /* --- callouts: fill / accent / text ------------------------------- */
+    --note-color:        var(--kanagawa-winter-blue);
+    --note-color-dark:   var(--kanagawa-base0D);
+    --note-color-darker: var(--kanagawa-base05);
+
+    --warning-color:        var(--kanagawa-winter-yellow);
+    --warning-color-dark:   var(--kanagawa-base09);
+    --warning-color-darker: var(--kanagawa-base05);
+
+    --bug-color:        var(--kanagawa-winter-red);
+    --bug-color-dark:   var(--kanagawa-base08);
+    --bug-color-darker: var(--kanagawa-base05);
+
+    --invariant-color:        var(--kanagawa-winter-green);
+    --invariant-color-dark:   var(--kanagawa-base0B);
+    --invariant-color-darker: var(--kanagawa-base05);
+
+    --deprecated-color:        var(--kanagawa-sumi-ink4);
+    --deprecated-color-dark:   var(--kanagawa-base03);
+    --deprecated-color-darker: var(--kanagawa-base06);
+
+    /* --- type --------------------------------------------------------- */
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+    --font-family-monospace: "SFMono-Regular", Menlo, Consolas,
+                             "Liberation Mono", monospace;
+    --content-maxwidth: 1050px;
+}
+
+/* Doxygen paints the page background on html, not body; without this the
+ * viewport shows white above and below the content on short pages. */
+html,
+body {
+    background-color: var(--kanagawa-base00);
+    /* HTML_COLORSTYLE is LIGHT (the theme requires it), so without this the
+     * browser paints scrollbars and form controls light against a dark page. */
+    color-scheme: dark;
+}
+
+/* Doxygen's @name group headers (tr.groupHeader) carry no themed background,
+ * so they render as a light bar across a dark member table. Style them as a
+ * section label instead. */
+/* The member table carries a light background from doxygen's own stylesheet.
+ * Opaque member cells normally hide it, so it only became visible once the
+ * group header row was made transparent — as a sliver in the border-spacing
+ * gap at each edge. */
+table.memberdecls {
+    background-color: transparent;
+}
+
+tr.groupHeader,
+tr.groupHeader > td {
+    background-color: var(--kanagawa-base00);
+    border: none;
+}
+tr.groupHeader > td {
+    padding-top: var(--spacing-medium);
+}
+.groupHeader {
+    color: var(--kanagawa-base06);
+    font-weight: 600;
+    border-bottom: 1px solid var(--kanagawa-base03);
+    padding-bottom: 4px;
+    margin-top: var(--spacing-small);
+}
+
+/* ======================================================================
+ * Drawing language
+ *
+ * Everything above is the palette. Everything below is the layer that makes
+ * the generated reference read as part of ethanwtodd.com rather than as a
+ * doxygen site that happens to share its colours: a faint grid under the
+ * content, hairline rules, corner ticks on panels, and mono uppercase labels
+ * used the way a drawing sheet uses annotations.
+ *
+ * It is written against doxygen-awesome's selectors and loads after it. Where
+ * a rule fights the theme rather than extending it, that is called out.
+ * ====================================================================== */
+
+/* doxygen-awesome-sidebar-only gives the sidebar masthead a fixed height and
+ * clips it with `overflow: hidden`. The search box lives inside that box, so
+ * the annotation label added to #projectname below pushes it out of sight
+ * unless the height grows to match. Raising this also moves the tree and the
+ * page-nav padding down, which is what should happen. */
+html {
+    --top-height: 160px;
+}
+
+:root,
+html:not(.light-mode),
+html.dark-mode {
+    /* Hairlines. base03 is too light for a 1px rule at this density, so the
+     * separators step down from it rather than using it directly. */
+    --au-line:        #2a2a38;
+    --au-line-strong: #35354a;
+    --au-tick:        var(--kanagawa-base0C);
+    --au-dim:         #9d9887;
+    --au-grid:        rgba(126, 156, 216, .045);
+
+    /* The site uses 3px throughout; doxygen-awesome defaults are much rounder
+     * and read as cards rather than as drawn panels. */
+    --border-radius-small:  2px;
+    --border-radius-medium: 3px;
+    --border-radius-large:  4px;
+
+    --separator-color: var(--au-line-strong);
+}
+
+/* --- the grid --------------------------------------------------------
+ * Under the content column only. Running it under the sidebar as well makes
+ * the tree hard to read at this contrast. */
+#doc-content {
+    background-image:
+        linear-gradient(var(--au-grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--au-grid) 1px, transparent 1px);
+    background-size: 28px 28px;
+    background-attachment: fixed;
+}
+
+/* --- sidebar masthead ------------------------------------------------
+ * The project name and brief are the only chrome doxygen gives us up here,
+ * so they carry the site's brand treatment: an annotation label above, the
+ * name set tight, the version in mono beside it. */
+#titlearea {
+    border-bottom: 1px solid var(--au-line);
+    padding-bottom: var(--spacing-medium);
+}
+
+#projectname {
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    color: var(--kanagawa-base05);
+}
+#projectname::before {
+    content: "API reference";
+    display: block;
+    margin-bottom: .45rem;
+    padding-left: 3.35rem;
+    font-family: var(--font-family-monospace);
+    font-size: .68rem;
+    font-weight: 400;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--au-tick);
+    /* The dashed leader from the site's section labels, drawn in the gutter
+     * the padding above reserves for it. */
+    background: repeating-linear-gradient(90deg,
+                var(--au-tick) 0 5px, transparent 5px 9px) no-repeat 0 .55em;
+    background-size: 2.5rem 1px;
+}
+
+#projectnumber {
+    font-family: var(--font-family-monospace);
+    font-size: .72rem;
+    letter-spacing: .04em;
+    color: var(--kanagawa-base04);
+}
+
+#projectbrief {
+    margin-top: .3rem;
+    font-size: .82rem;
+    line-height: 1.5;
+    color: var(--au-dim);
+}
+
+/* --- side navigation -------------------------------------------------- */
+#side-nav {
+    border-right: 1px solid var(--au-line);
+}
+#nav-tree .item {
+    font-size: .9rem;
+}
+#nav-tree .selected {
+    background: rgba(34, 50, 73, .55);
+    border-radius: var(--border-radius-small);
+    text-shadow: none;
+}
+#nav-tree a {
+    color: var(--au-dim);
+}
+#nav-tree .selected a,
+#nav-tree a:hover {
+    color: var(--kanagawa-base06);
+}
+#splitbar {
+    background: var(--au-line);
+}
+
+/* --- search ----------------------------------------------------------- */
+#MSearchBox {
+    border: 1px solid var(--au-line-strong);
+    border-radius: var(--border-radius-medium);
+    box-shadow: none;
+}
+#MSearchBox:focus-within,
+#MSearchBox.MSearchBoxActive {
+    border-color: var(--kanagawa-base0D);
+}
+#MSearchField {
+    font-family: var(--font-family-monospace);
+    font-size: .8rem;
+}
+
+/* --- headings --------------------------------------------------------
+ * `.headertitle .title` is the page title; markdown `##` becomes
+ * `h1.doxsection` and `###` becomes `h2.doxsection`, so the section rules
+ * hang off those rather than off h1/h2 generally. */
+div.header {
+    border-bottom: 1px solid var(--au-line);
+    background: radial-gradient(48rem 18rem at 0% -60%,
+                rgba(34, 50, 73, .5), transparent 70%);
+}
+div.headertitle .title {
+    font-size: 2.1rem;
+    font-weight: 600;
+    letter-spacing: -.025em;
+    color: #EDE9D6;
+}
+
+h1.doxsection {
+    margin-top: 2.75rem;
+    padding-top: .9rem;
+    border-top: 1px solid var(--au-line);
+    font-size: 1.4rem;
+    letter-spacing: -.015em;
+    color: var(--kanagawa-base06);
+}
+h2.doxsection {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: var(--kanagawa-base06);
+}
+
+/* `h2.groupheader` is doxygen's own section title on a class or file page —
+ * "Public Member Functions", "Protected Attributes" — as opposed to the
+ * `.groupHeader` class further down, which is the `@name` row inside a member
+ * table. They get the same rule as a narrative section so both kinds of page
+ * are divided the same way. */
+h2.groupheader {
+    margin-top: 2.5rem;
+    padding-top: .9rem;
+    border-top: 1px solid var(--au-line);
+    border-bottom: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    color: var(--kanagawa-base06);
+}
+
+/* --- links ------------------------------------------------------------ */
+a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+.contents a:hover {
+    color: var(--kanagawa-base06);
+}
+
+/* --- inline code ------------------------------------------------------
+ * The site gives inline code a hairline border, which is what separates it
+ * from a fragment block at a glance. */
+code.code,
+a.code,
+span.mlabel + code,
+.contents tt,
+.paramname code {
+    border: 1px solid var(--au-line);
+    border-radius: 2px;
+    padding: .08em .34em;
+    color: var(--kanagawa-base06);
+}
+
+/* --- panels: fragments and members -----------------------------------
+ * Corner ticks are the site's one piece of ornament. They go on the two
+ * panel types that carry real content, and nowhere else. */
+div.fragment,
+.memitem {
+    position: relative;
+    border: 1px solid var(--au-line);
+    border-radius: var(--border-radius-medium);
+    box-shadow: none;
+}
+div.fragment::before,
+div.fragment::after,
+.memitem::before,
+.memitem::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 0 solid var(--au-tick);
+    opacity: .6;
+    pointer-events: none;
+}
+div.fragment::before,
+.memitem::before {
+    top: -1px;
+    left: -1px;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+}
+div.fragment::after,
+.memitem::after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom-width: 1.5px;
+    border-right-width: 1.5px;
+}
+
+.memproto {
+    border-bottom: 1px solid var(--au-line);
+    background: var(--kanagawa-base01);
+}
+.memname {
+    font-family: var(--font-family-monospace);
+    font-size: .88rem;
+}
+
+/* The floating label above a member block, set as an annotation. */
+.memtitle {
+    font-family: var(--font-family-monospace);
+    font-size: .66rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--au-tick);
+    background: var(--kanagawa-base01);
+    border: 1px solid var(--au-line);
+    border-bottom: none;
+}
+
+.memSeparator {
+    border-bottom: 1px solid var(--au-line);
+}
+
+/* --- tables ----------------------------------------------------------- */
+table.doxtable th,
+table.markdownTable th,
+.markdownTableHead th {
+    font-family: var(--font-family-monospace);
+    font-size: .68rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: transparent;
+    color: var(--kanagawa-base04);
+    border-bottom: 1px solid var(--au-line-strong);
+}
+table.doxtable td,
+table.markdownTable td {
+    border-bottom: 1px solid var(--au-line);
+    border-left: none;
+    border-right: none;
+}
+table.doxtable tbody tr:hover,
+table.markdownTable tbody tr:hover {
+    background: rgba(42, 42, 55, .35);
+}
+
+/* --- section labels --------------------------------------------------- */
+.groupHeader {
+    font-family: var(--font-family-monospace);
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--au-tick);
+    border-bottom: 1px solid var(--au-line);
+}
+
+/* --- callouts --------------------------------------------------------
+ * Squared off on the left, rounded on the right, matching the site's
+ * blockquote rather than doxygen-awesome's pill. */
+.contents .note,
+.contents .warning,
+.contents .pre,
+.contents .post,
+.contents .invariant,
+.contents .attention,
+.contents .bug,
+.contents .deprecated,
+.contents .remark {
+    border-radius: 0 var(--border-radius-medium) var(--border-radius-medium) 0;
+    box-shadow: none;
+}
+
+/* --- footer ----------------------------------------------------------- */
+address.footer {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--au-line);
+    font-family: var(--font-family-monospace);
+    font-size: .7rem;
+    letter-spacing: .06em;
+    color: var(--kanagawa-base04);
+    text-align: left;
+}
+
+/* --- focus ------------------------------------------------------------ */
+:focus-visible {
+    outline: 2px solid var(--kanagawa-base0D);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* All five callouts share one surface and are told apart by the accent rule
+ * alone, as on the site. The winter* fills stay defined above because doxygen
+ * uses them elsewhere, but they no longer paint these. */
+.contents .note,
+.contents .warning,
+.contents .pre,
+.contents .post,
+.contents .invariant,
+.contents .attention,
+.contents .bug,
+.contents .deprecated,
+.contents .remark {
+    background: var(--kanagawa-base01);
+    color: var(--kanagawa-base06);
+}

@@ -1,0 +1,21 @@
+{{- /*
+  One project in a card grid. Expects a dict: "page" and "idx".
+  Everything shown comes from the page's front matter, so a new project is a
+  new markdown file and nothing else.
+*/ -}}
+{{- $p := .page -}}
+<li class="reveal" {{ with .delay }}data-reveal-delay="{{ . }}"{{ end }}>
+  <a class="card ticked" href="{{ $p.RelPermalink }}">
+    <div class="kicker">
+      <span class="anno">{{ .idx }}</span>
+      {{ with $p.Params.status }}<span class="chip on">{{ . }}</span>{{ end }}
+    </div>
+    <h3>{{ $p.Title }}</h3>
+    <p>{{ $p.Params.summary | default $p.Description }}</p>
+    <div class="tail">
+      <div class="chips">
+        {{ range first 5 $p.Params.stack }}<span class="chip">{{ . }}</span>{{ end }}
+      </div>
+    </div>
+  </a>
+</li>

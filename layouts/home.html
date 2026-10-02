@@ -1,0 +1,133 @@
+{{ define "hero" }}
+{{- $cv := hugo.Data.cv -}}
+<header class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      {{ partial "eyebrow.html" (dict "label" (printf "%s · %s" site.Params.role site.Params.affiliation)) }}
+      <h1>{{ site.Title }}</h1>
+      <p class="role">{{ site.Params.description }}</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ "/projects/" | relURL }}">Projects <span class="arrow">→</span></a>
+        <a class="btn" href="{{ "/cv/" | relURL }}">Curriculum vitae</a>
+        <a class="btn" href="{{ site.Params.github }}" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="hero-term reveal">
+      {{ partial "terminal.html" (dict
+          "title" "e-work@e-desktop — analysis"
+          "animate" true
+          "lines" (slice
+            (dict "p" "$" "c" "nix develop github:ewtodd/Analysis-Utilities")
+            (dict "o" "ROOT 6.40 · CUDA 13 · analysis-utilities ready")
+            (dict "p" "$" "c" "root -l fit.cpp+")
+            (dict "o" "unbinned EML fit · 4.1M events")
+            (dict "k" "  GPU doEval ......... 6.2 s")
+            (dict "m" "  # ~2 min on the OpenMP CPU path")
+          )) }}
+    </div>
+  </div>
+
+  {{/* A title block across the foot of the sheet, the way a drawing carries
+       its identifying data along the bottom edge. */}}
+  <div class="wrap">
+    <div class="specstrip">
+      <span><i class="dot" aria-hidden="true"></i>Detector physics</span>
+      <span><i class="dot" aria-hidden="true"></i>C++ · CUDA · Nix</span>
+      {{ with $cv }}
+        {{ $pubs := 0 }}
+        {{ range .sections }}{{ if eq .id "publications" }}{{ $pubs = len .references }}{{ end }}{{ end }}
+        {{ if $pubs }}<span><i class="dot" aria-hidden="true"></i>{{ $pubs }} publications</span>{{ end }}
+      {{ end }}
+      <span><i class="dot" aria-hidden="true"></i>Ann Arbor, MI</span>
+      <span class="tail"><a href="https://orcid.org/{{ site.Params.orcid }}" rel="noopener">ORCID {{ site.Params.orcid }}</a></span>
+    </div>
+    <a class="scrollcue anno" href="#work" style="display:flex;justify-content:center">Scroll <span aria-hidden="true">▾</span></a>
+  </div>
+</header>
+{{ end }}
+
+{{ define "main" }}
+{{- $cv := hugo.Data.cv -}}
+{{- $projects := (where site.RegularPages "Section" "projects").ByWeight -}}
+
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="withaside">
+      <div>
+        <div class="section-head reveal">
+          {{ partial "eyebrow.html" (dict "idx" "01" "label" "Work") }}
+          <h2>{{ .Title }}</h2>
+        </div>
+        <div class="prose reveal">{{ .Content }}</div>
+      </div>
+
+      {{ with $cv }}
+        {{- $current := slice -}}
+        {{- range .sections -}}
+          {{- if eq .id "research" -}}
+            {{- range .entries -}}
+              {{- if in .dates "Present" -}}{{- $current = $current | append . -}}{{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{ with $current }}
+          <aside class="aside reveal">
+            <h2>Currently</h2>
+            <dl class="spec">
+              {{ range . }}
+                <dt>{{ .dates }}</dt>
+                <dd>{{ .title }}<br><span class="muted">{{ .org }}</span></dd>
+              {{ end }}
+            </dl>
+            <div class="links">
+              <a class="btn" href="{{ "/cv/" | relURL }}">Full CV <span class="arrow">→</span></a>
+            </div>
+          </aside>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      {{ partial "eyebrow.html" (dict "idx" "02" "label" "Projects") }}
+      <h2>Software I build and maintain</h2>
+      <p>Analysis libraries for nuclear measurement, an agent harness, and the Nix configuration that keeps it all reproducible.</p>
+    </div>
+    <ul class="cards two">
+      {{ range $i, $p := $projects }}
+        {{ partial "project-card.html" (dict "page" $p "idx" (printf "%02d" (add $i 1)) "delay" (mul $i 70)) }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+{{ with $cv }}
+  {{- $pubs := slice -}}
+  {{- range .sections -}}
+    {{- if eq .id "publications" -}}{{- $pubs = .references -}}{{- end -}}
+  {{- end -}}
+  {{ with $pubs }}
+    <section class="section" id="publications">
+      <div class="wrap">
+        <div class="section-head reveal">
+          {{ partial "eyebrow.html" (dict "idx" "03" "label" "Publications") }}
+          <h2>Selected publications</h2>
+          <p>Newest first. The full list, with presentations, teaching and awards,
+             is on the CV.</p>
+        </div>
+        <ol class="refs reveal">
+          {{ range first 4 . }}{{ partial "reference.html" . }}{{ end }}
+        </ol>
+        <div class="btn-row" style="margin-top:2rem">
+          <a class="btn" href="{{ "/cv/#publications" | relURL }}">All {{ len . }} publications <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
+{{ end }}

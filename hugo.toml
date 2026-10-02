@@ -1,20 +1,61 @@
 baseURL = "https://ethanwtodd.com/"
 locale = "en-us"
 title = "Ethan Todd"
+enableRobotsTXT = true
 
 # No theme and no npm on purpose: the layouts under layouts/ are small enough to
 # own outright, and this keeps the site buildable with nothing but the `hugo`
 # binary already in the dev shell.
 
+# Nothing here is a stream of posts, so the feed and the empty taxonomy pages
+# would only be dead URLs.
+disableKinds = ["taxonomy", "term", "rss"]
+
 [params]
-  description = "Nuclear measurement, detector physics, and the software around them."
-  apiDocsURL = "https://au.ethanwtodd.com"
+description = "Nuclear measurement, reproducible analysis, and the software that goes with it."
+role = "Ph.D. candidate in physics"
+affiliation = "University of Michigan"
+group = "Applied Nuclear Science Group"
+lab = "Low Energy Physics Group, Argonne National Laboratory"
+email = "ewtodd@umich.edu"
+orcid = "0009-0003-5162-9044"
+github = "https://github.com/ewtodd"
+githubUser = "ewtodd"
+docsURL = "https://docs.ethanwtodd.com"
+cvRepo = "https://github.com/ewtodd/Curriculum-Vitae"
+# Kanagawa, as everywhere else in this stack.
+themeColor = "#1F1F28"
 
 [markup.highlight]
-  noClasses = false
-  style = "nord"
+noClasses = false
+style = "nord"
+tabWidth = 2
+
+[markup.goldmark.renderer]
+# Every page in content/ is written here; there is no user-submitted markdown
+# to sanitise, and the project pages need inline markup for nuclide notation.
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 10
+name = "Projects"
+url = "/projects/"
+weight = 10
+
+[[menu.main]]
+name = "CV"
+url = "/cv/"
+weight = 20
+
+[[menu.external]]
+name = "Docs"
+url = "https://docs.ethanwtodd.com"
+weight = 10
+
+[[menu.external]]
+name = "GitHub"
+url = "https://github.com/ewtodd"
+weight = 20

@@ -1,0 +1,129 @@
+{{ define "hero" }}
+{{- $cv := hugo.Data.cv -}}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" "Curriculum vitae") }}
+  <h1>{{ with $cv }}{{ .contact.name }}{{ else }}{{ site.Title }}{{ end }}</h1>
+  <p class="lede">{{ site.Params.role }}, {{ site.Params.affiliation }}. {{ site.Params.description }}</p>
+  <div class="btn-row">
+    {{ with $cv }}{{ with .pdf }}<a class="btn btn-primary" href="{{ . | relURL }}">Download PDF <span class="arrow">↓</span></a>{{ end }}{{ end }}
+    <a class="btn" href="{{ site.Params.cvRepo }}" rel="noopener">LaTeX source ↗</a>
+    <a class="btn" href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+  </div>
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+{{- $cv := hugo.Data.cv -}}
+<section class="section">
+  <div class="wrap">
+    {{ if not $cv }}
+      {{/* The data file is generated at build time from the curriculum-vitae
+           flake input. Without it the page still has to say something useful,
+           so it falls back to the canonical sources. */}}
+      <div class="prose">
+        <p>The CV on this page is generated from its LaTeX source, and that source
+           was not available when this copy of the site was built. The current
+           version is always in the repository.</p>
+        <p><a href="{{ site.Params.cvRepo }}" rel="noopener">github.com/ewtodd/Curriculum-Vitae</a></p>
+      </div>
+    {{ else }}
+      <div class="cv-layout">
+        <nav class="cv-toc" aria-label="Sections">
+          <span class="anno">Contents</span>
+          <ol>
+            {{ range $cv.sections }}<li><a href="#{{ .id }}">{{ .title }}</a></li>{{ end }}
+          </ol>
+        </nav>
+
+        <div>
+          {{ with .Content }}<div class="prose" style="margin-bottom:1.5rem">{{ . }}</div>{{ end }}
+
+          {{ range $cv.sections }}
+            <section class="cv-section reveal" id="{{ .id }}">
+              <h2>{{ .title }}</h2>
+
+              {{ if eq .kind "entries" }}
+                <ol class="tl">
+                  {{ range .entries }}
+                    <li>
+                      <div class="entry-head">
+                        <h3>{{ .title | safeHTML }}</h3>
+                        <span class="entry-dates">{{ .dates }}</span>
+                      </div>
+                      <p class="entry-org">
+                        {{ .org | safeHTML }}
+                        {{ with .location }}<span class="loc"> · {{ . }}</span>{{ end }}
+                        {{ with .grade }}<span class="entry-grade">{{ . }}</span>{{ end }}
+                      </p>
+                      {{ range .notes }}<p class="entry-note">{{ . | safeHTML }}</p>{{ end }}
+                      {{ with .bullets }}
+                        <ul class="bullets">
+                          {{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}
+                        </ul>
+                      {{ end }}
+                      {{ range .projects }}
+                        <div class="subproj">
+                          <h4>{{ .title | safeHTML }}</h4>
+                          {{ range .notes }}<p class="entry-note">{{ . | safeHTML }}</p>{{ end }}
+                          {{ with .bullets }}
+                            <ul class="bullets">
+                              {{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}
+                            </ul>
+                          {{ end }}
+                        </div>
+                      {{ end }}
+                    </li>
+                  {{ end }}
+                </ol>
+
+              {{ else if eq .kind "references" }}
+                <ol class="refs">
+                  {{ range .references }}{{ partial "reference.html" . }}{{ end }}
+                </ol>
+
+              {{ else if eq .kind "awards" }}
+                <ul class="awards">
+                  {{ range .awards }}
+                    <li>
+                      <span class="when">{{ .date }}</span>
+                      <div>
+                        <p class="what">{{ .title | safeHTML }}</p>
+                        {{ with .comment }}<p class="why">{{ . | safeHTML }}</p>{{ end }}
+                      </div>
+                    </li>
+                  {{ end }}
+                </ul>
+
+              {{ else if eq .kind "skills" }}
+                <div class="skills">
+                  {{ range .groups }}
+                    <div class="skill-group">
+                      <span class="anno">{{ .label | plainify }}</span>
+                      {{ with .value }}<p style="margin:0">{{ . | safeHTML }}</p>{{ end }}
+                      {{ with .rows }}
+                        <dl class="skill-rows">
+                          {{ range . }}
+                            <dt>{{ .label | safeHTML }}</dt>
+                            <dd>{{ .value | safeHTML }}</dd>
+                          {{ end }}
+                        </dl>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </section>
+          {{ end }}
+
+          <p class="colophon-note anno">
+            Generated from
+            <a href="{{ site.Params.cvRepo }}" rel="noopener">the LaTeX source</a>
+            {{ with $cv.source.short_rev }}at {{ . }}{{ end }}
+            {{ with $cv.source.updated }} · {{ substr . 0 4 }}-{{ substr . 4 2 }}-{{ substr . 6 2 }}{{ end }}
+          </p>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
