@@ -9,13 +9,16 @@ license: "MIT"
 stack: ["Nix", "NixOS", "Colmena", "agenix", "Caddy"]
 host: "10 hosts, x86_64 and aarch64"
 repo: "https://github.com/ewtodd/NixOS"
+devices: "/devices/"
 ---
 <!---->
 The configuration behind everything else on this site, including the machine
 serving this page.
 Ten hosts described by one flake: a router, an SSH bastion, a
 storage server, two inference machines, a model-router host, four workstations
-and a living-room kiosk.
+and a living-room kiosk. The machines themselves have
+[spec pages]({{< relref "/devices" >}}) — what they are, what firmware they run,
+and the notes that do not belong in a `.nix` file.
 <!---->
 ## How it is organised
 <!---->

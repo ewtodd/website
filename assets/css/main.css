@@ -636,6 +636,15 @@ td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums;
 .pagehead .lede { margin: 0; }
 .pagehead .btn-row { margin-top: 1.75rem; }
 
+/* A device alias under the page title, e.g. "aka Yeti". */
+.device-aka {
+    margin: 0 0 .4rem;
+    font-family: var(--mono);
+    font-size: .78rem;
+    letter-spacing: .05em;
+    color: var(--faint);
+}
+
 .backlink {
     display: inline-flex;
     align-items: center;
@@ -700,6 +709,9 @@ td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums;
 }
 .tl > li { position: relative; padding-bottom: 2rem; }
 .tl > li:last-child { padding-bottom: 0; }
+/* Device pages render the timeline inside .prose, whose generic list padding
+   would otherwise pull the spine and the entry nodes out of alignment. */
+.prose .tl { padding-left: 1.4rem; }
 .tl > li::before {
     content: "";
     position: absolute;
@@ -844,7 +856,53 @@ td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums;
 .cv-toc a.on { color: var(--accent); border-left-color: var(--accent); }
 
 /* ======================================================================
-   12. Footer
+   12. Posts
+   ====================================================================== */
+
+/* A dated writing index: mono date in a fixed gutter, title and summary
+   stacked beside it. */
+.postlist { list-style: none; margin: 0; padding: 0; }
+.postlist > li { border-bottom: 1px solid var(--line-soft); }
+.postlist > li:last-child { border-bottom: 0; }
+.postlist a {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 1.5rem;
+    padding: 1.1rem 0;
+    color: inherit;
+    text-decoration: none;
+}
+.postlist .post-date {
+    font-family: var(--mono);
+    font-size: .72rem;
+    letter-spacing: .06em;
+    color: var(--tick);
+    padding-top: .35rem;
+    white-space: nowrap;
+}
+.postlist .post-text { display: grid; gap: .25rem; }
+.postlist .post-title {
+    font-size: 1.08rem;
+    color: var(--base06);
+    transition: color .18s var(--ease);
+}
+.postlist a:hover .post-title { color: var(--accent); }
+.postlist .post-summary { color: var(--dim); font-size: .93rem; line-height: 1.6; }
+@media (max-width: 34rem) {
+    .postlist a { grid-template-columns: 1fr; gap: .2rem; }
+    .postlist .post-date { padding-top: 0; }
+}
+
+/* A post is one centered column. Project pages keep the measure to the left
+   of a spec panel; a post has nothing beside it, so it centers. */
+.prose.post { margin-left: auto; margin-right: auto; }
+.post-foot {
+    max-width: var(--measure);
+    margin: 2.5rem auto 0;
+}
+
+/* ======================================================================
+   13. Footer
    ====================================================================== */
 
 footer.site {
@@ -878,7 +936,7 @@ footer.site .colophon {
 }
 
 /* ======================================================================
-   13. Motion
+   14. Motion
    ====================================================================== */
 
 /* Elements start slightly low and faded, and site.js adds .in when they first
@@ -901,7 +959,67 @@ footer.site .colophon {
 }
 
 /* ======================================================================
-   14. Utility
+   15. Birds page (public lifelist)
+   ====================================================================== */
+
+.bird-totals { margin: .9rem 0 0; color: var(--dim); font-size: .95rem; display: flex; flex-wrap: wrap; gap: .6rem; }
+.bird-totals .dot { color: var(--faint); }
+
+.bird-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; margin: 0 0 1.5rem; }
+.bird-tools .sort { display: flex; gap: .35rem; }
+.sort-btn { font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); background: none; border: 1px solid var(--line); border-radius: var(--radius); padding: .4rem .7rem; cursor: pointer; }
+.sort-btn:hover { color: var(--accent); border-color: var(--accent); }
+.sort-btn.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+.bird-hint { color: var(--faint); font-size: .78rem; }
+
+.birds { margin: 0 0 2rem; }
+.bird { border-bottom: 1px solid var(--line-soft); }
+.bird:first-child { border-top: 1px solid var(--line-soft); }
+
+.bird-head { width: 100%; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .2rem 1.25rem; padding: .8rem .15rem; text-align: left; color: inherit; background: none; border: 0; cursor: pointer; }
+.bird-head:disabled { cursor: default; }
+.bird-head.open + .bird-body { border-top: 1px dashed var(--line-soft); }
+
+.bird-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; min-width: 0; }
+.bird-name { font-weight: 600; color: var(--base06); }
+.bird-sci { color: var(--dim); font-size: .9em; }
+.bird-sci em { font-style: italic; }
+
+.bird-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem 1.1rem; margin-left: auto; }
+.bird-where { color: var(--faint); font-size: .82em; display: flex; flex-wrap: wrap; gap: .5rem; }
+.bird-date { font-family: var(--mono); }
+.bird-count { font-family: var(--mono); font-size: .78rem; color: var(--faint); min-width: 2.6rem; text-align: right; }
+.bird-photo { color: var(--accent); display: inline-flex; align-items: center; }
+
+.bird-body { padding: .5rem 0 1.1rem; }
+.bird-body[hidden] { display: none; }
+.bird-thumbs { display: flex; flex-wrap: wrap; gap: .75rem; }
+.bird-thumb { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 0; cursor: pointer; line-height: 0; overflow: hidden; max-width: 220px; transition: border-color .18s var(--ease), transform .18s var(--ease); }
+.bird-thumb img { display: block; width: 100%; height: auto; }
+.bird-thumb:hover { border-color: var(--accent); transform: translateY(-2px); }
+
+.bird-lightbox { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; background: rgba(22,22,29,.93); padding: 2.5rem; }
+.bird-lightbox[hidden] { display: none; }
+.lb-fig { margin: 0; display: flex; flex-direction: column; align-items: center; gap: .75rem; }
+.lb-img { max-width: min(92vw, 1200px); max-height: 76vh; object-fit: contain; border-radius: var(--radius); box-shadow: 0 24px 70px rgba(0,0,0,.55); }
+.lb-cap { color: var(--dim); font-family: var(--mono); font-size: .8rem; }
+.lb-close, .lb-prev, .lb-next { position: fixed; z-index: 201; color: var(--base05); background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); font-size: 1.5rem; line-height: 1; padding: .35rem .65rem; cursor: pointer; }
+.lb-close { top: 1rem; right: 1rem; }
+.lb-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.lb-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+.lb-close:hover, .lb-prev:hover, .lb-next:hover { color: var(--accent); border-color: var(--accent); }
+body.lb-open { overflow: hidden; }
+
+@media (max-width: 640px) {
+    .bird-head { flex-direction: column; align-items: flex-start; gap: .15rem .6rem; }
+    .bird-meta { margin-left: 0; }
+    .bird-name { font-size: 1.02rem; }
+    .lb-close { top: .75rem; right: .75rem; }
+    .lb-prev, .lb-next { font-size: 1.2rem; padding: .3rem .5rem; }
+}
+
+/* ======================================================================
+   16. Utility
    ====================================================================== */
 
 .skip {

@@ -1,0 +1,21 @@
+{{ define "hero" }}
+<header class="pagehead"><div class="wrap">
+  {{ with .Parent }}
+    {{ if not .IsHome }}<a class="backlink" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+  {{ end }}
+  {{ partial "eyebrow.html" (dict "label" (printf "%s · %d min read" (.Date.Format "2006-01-02") .ReadingTime)) }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+<section class="section">
+  <div class="wrap">
+    <article class="prose post reveal">{{ .Content }}</article>
+    <div class="post-foot">
+      <a class="btn" href="{{ .Parent.RelPermalink }}">All posts <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+{{ end }}

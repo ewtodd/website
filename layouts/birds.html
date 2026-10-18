@@ -1,0 +1,100 @@
+{{ define "hero" }}
+{{- $birds := site.Data.birds -}}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" "Public lifelist") }}
+  <h1>Birds</h1>
+  <p class="lede">What the archive has confirmed, kept in taxonomic order. Every
+    entry is a species seen and verified; photos are the clearest frames from
+    distinct encounters.</p>
+  {{ with $birds }}
+  <p class="bird-totals">
+    <span>{{ .species_count }} species</span>
+    {{ if .with_photos }}<span class="dot">·</span><span>{{ .with_photos }} with photos</span>{{ end }}
+  </p>
+  {{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+{{- $birds := site.Data.birds -}}
+<section class="section">
+  <div class="wrap">
+    {{ if not $birds }}
+      <div class="prose">
+        <p>The public lifelist on this page is generated from the bird photo
+           pipeline, and that data was not available when this copy of the site
+           was built.</p>
+      </div>
+    {{ else }}
+      {{ with .Content }}<div class="prose" style="margin-bottom:1.5rem">{{ . }}</div>{{ end }}
+
+      <div class="bird-tools">
+        <div class="sort" role="group" aria-label="Sort the lifelist">
+          <button type="button" class="sort-btn on" data-sort="taxon" aria-pressed="true">Taxonomic order</button>
+          <button type="button" class="sort-btn" data-sort="date" aria-pressed="false">By first date</button>
+        </div>
+        <span class="bird-hint">select a row with a photo to see the frames</span>
+      </div>
+
+      <div class="birds">
+        {{ range $s := $birds.species }}
+        {{- $rank := 999999 }}{{ with $s.rank }}{{ $rank = . }}{{ end -}}
+        {{- $date := "9999-12-31" }}{{ with $s.first_date }}{{ $date = . }}{{ end -}}
+        <article class="bird" data-rank="{{ $rank }}"
+                 data-date="{{ $date }}"
+                 data-slug="{{ $s.slug }}">
+          <button class="bird-head" type="button" aria-expanded="false"
+                  {{ if not $s.photos }}disabled{{ end }}>
+            <span class="bird-title">
+              <span class="bird-name">{{ $s.common }}</span>
+              <span class="bird-sci"><em>{{ $s.scientific }}</em></span>
+            </span>
+            <span class="bird-meta">
+              <span class="bird-where">
+                <span class="bird-date">{{ $s.first_date }}</span>
+                <span class="bird-place">{{ $s.first_location }}</span>
+              </span>
+              <span class="bird-count">{{ $s.sightings }}</span>
+              <span class="bird-photo">
+                {{ if $s.photos }}
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none"
+                       stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                    <path d="M4 8h3l1.6-2h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                    <circle cx="12" cy="13" r="3.2"/>
+                  </svg>
+                {{ end }}
+              </span>
+            </span>
+          </button>
+          <div class="bird-body" hidden>
+            <div class="bird-thumbs">
+              {{ range $p := $s.photos }}
+                <button class="bird-thumb" type="button"
+                        data-src="{{ $p.src }}" data-date="{{ $p.date }}">
+                  <img src="{{ $p.thumb }}" alt="{{ $s.common }}, {{ $p.date }}"
+                       loading="lazy">
+                </button>
+              {{ end }}
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+
+      <div class="bird-lightbox" hidden>
+        <button class="lb-close" type="button" aria-label="Close">×</button>
+        <button class="lb-prev" type="button" aria-label="Previous photo">‹</button>
+        <figure class="lb-fig">
+          <img class="lb-img" src="" alt="">
+          <figcaption class="lb-cap"></figcaption>
+        </figure>
+        <button class="lb-next" type="button" aria-label="Next photo">›</button>
+      </div>
+
+      {{ with resources.Get "js/birds.js" | minify | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

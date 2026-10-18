@@ -5,10 +5,11 @@
   {{ end }}
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
-  {{ if or .Params.repo .Params.docs }}
+  {{ if or .Params.repo .Params.docs .Params.devices }}
     <div class="btn-row">
       {{ with .Params.repo }}<a class="btn btn-primary" href="{{ . }}" rel="noopener">Source ↗</a>{{ end }}
       {{ with .Params.docs }}<a class="btn" href="{{ . }}" rel="noopener">Documentation ↗</a>{{ end }}
+      {{ with .Params.devices }}<a class="btn" href="{{ . | relURL }}">Devices <span class="arrow">→</span></a>{{ end }}
     </div>
   {{ end }}
 </div></header>
@@ -36,6 +37,7 @@
           <div class="links">
             {{ with .Params.repo }}<a class="btn" href="{{ . }}" rel="noopener">Source ↗</a>{{ end }}
             {{ with .Params.docs }}<a class="btn" href="{{ . }}" rel="noopener">Docs ↗</a>{{ end }}
+            {{ with .Params.devices }}<a class="btn" href="{{ . | relURL }}">Devices <span class="arrow">→</span></a>{{ end }}
           </div>
         </aside>
       {{ end }}

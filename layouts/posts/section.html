@@ -1,0 +1,32 @@
+{{ define "hero" }}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" (printf "%d posts" (len .Pages))) }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+<section class="section">
+  <div class="wrap">
+    {{ with .Content }}<div class="prose reveal" style="margin-bottom:2.5rem">{{ . }}</div>{{ end }}
+    {{ with .Pages.ByDate.Reverse }}
+      <ul class="postlist">
+        {{ range . }}
+          <li class="reveal">
+            <a href="{{ .RelPermalink }}">
+              <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+              <span class="post-text">
+                <span class="post-title">{{ .Title }}</span>
+                <span class="post-summary">{{ .Description | default .Summary | plainify | truncate 180 }}</span>
+              </span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p class="muted">Nothing published yet.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
