@@ -39,24 +39,32 @@
       <div class="birds">
         {{ range $s := $birds.species }}
         {{- $rank := 999999 }}{{ with $s.rank }}{{ $rank = . }}{{ end -}}
-        {{- $date := "9999-12-31" }}{{ with $s.first_date }}{{ $date = . }}{{ end -}}
+        {{- $date := "9999-12-31" }}{{ with $s.first }}{{ with .date }}{{ $date = . }}{{ end }}{{ end -}}
         <article class="bird" data-rank="{{ $rank }}"
                  data-date="{{ $date }}"
                  data-slug="{{ $s.slug }}">
           <button class="bird-head" type="button" aria-expanded="false"
-                  {{ if not $s.photos }}disabled{{ end }}>
+                  {{ if not $s.sightings }}disabled{{ end }}>
+            {{ with $s.latest_photo }}<img class="bird-head-thumb" src="{{ .photo.thumb }}" alt="" loading="lazy">{{ end }}
             <span class="bird-title">
               <span class="bird-name">{{ $s.common }}</span>
               <span class="bird-sci"><em>{{ $s.scientific }}</em></span>
             </span>
             <span class="bird-meta">
               <span class="bird-where">
-                <span class="bird-date">{{ $s.first_date }}</span>
-                <span class="bird-place">{{ $s.first_location }}</span>
+                <span class="bird-date">first {{ $s.first.date }}</span>
+                <span class="bird-place">{{ $s.first.place }}</span>
               </span>
-              <span class="bird-count">{{ $s.sightings }}</span>
+              <span class="bird-latest">
+                <span class="bird-date">latest {{ $s.latest.date }}</span>
+                <span class="bird-place">{{ $s.latest.place }}</span>
+                {{ if and (not $s.latest.photo) $s.latest_photo }}
+                  <span class="bird-photo-from">photo from {{ $s.latest_photo.date }}</span>
+                {{ end }}
+              </span>
+              <span class="bird-count">{{ $s.count }}</span>
               <span class="bird-photo">
-                {{ if $s.photos }}
+                {{ if $s.latest_photo }}
                   <svg viewBox="0 0 24 24" width="17" height="17" fill="none"
                        stroke="currentColor" stroke-width="1.6" aria-hidden="true">
                     <path d="M4 8h3l1.6-2h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
@@ -68,12 +76,17 @@
           </button>
           <div class="bird-body" hidden>
             <div class="bird-thumbs">
-              {{ range $p := $s.photos }}
-                <button class="bird-thumb" type="button"
-                        data-src="{{ $p.src }}" data-date="{{ $p.date }}">
-                  <img src="{{ $p.thumb }}" alt="{{ $s.common }}, {{ $p.date }}"
-                       loading="lazy">
-                </button>
+              {{ range $si := $s.sightings }}
+                {{ if $si.photo }}
+                  <button class="bird-thumb" type="button"
+                          data-src="{{ $si.photo.src }}" data-date="{{ $si.date }}">
+                    <img src="{{ $si.photo.thumb }}"
+                         alt="{{ $s.common }}, {{ $si.date }} &mdash; {{ $si.place }}"
+                         loading="lazy">
+                  </button>
+                {{ else }}
+                  <div class="bird-note">{{ $si.date }} <span class="bird-note-place">{{ $si.place }}</span></div>
+                {{ end }}
               {{ end }}
             </div>
           </div>

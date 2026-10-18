@@ -1,1393 +1,1421 @@
 {
-  "generated": "2026-10-18T13:43:09-05:00",
+  "generated": "2026-10-18T15:23:20-05:00",
   "species_count": 166,
   "with_photos": 4,
   "species": [
-    {
-      "slug": "black-bellied-whistling-duck",
-      "common": "Black-bellied Whistling-Duck",
-      "scientific": "Dendrocygna autumnalis",
-      "rank": 64,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "canada-goose",
-      "common": "Canada Goose",
-      "scientific": "Branta canadensis",
-      "rank": 76,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "greater-white-fronted-goose",
-      "common": "Greater White-fronted Goose",
-      "scientific": "Anser albifrons",
-      "rank": 88,
-      "first_date": "2021-08-13",
-      "first_location": "Mills River, NC",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "egyptian-goose",
-      "common": "Egyptian Goose",
-      "scientific": "Alopochen aegyptiaca",
-      "rank": 139,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "muscovy-duck",
-      "common": "Muscovy Duck",
-      "scientific": "Cairina moschata",
-      "rank": 155,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "wood-duck",
-      "common": "Wood Duck",
-      "scientific": "Aix sponsa",
-      "rank": 158,
-      "first_date": "2021-06-06",
-      "first_location": "Corkscrew Sanctuary, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "blue-winged-teal",
-      "common": "Blue-winged Teal",
-      "scientific": "Spatula discors",
-      "rank": 175,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "gadwall",
-      "common": "Gadwall",
-      "scientific": "Mareca strepera",
-      "rank": 179,
-      "first_date": "2022-02-19",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-wigeon",
-      "common": "American Wigeon",
-      "scientific": "Mareca americana",
-      "rank": 183,
-      "first_date": "2022-02-19",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "mallard",
-      "common": "Mallard",
-      "scientific": "Anas platyrhynchos",
-      "rank": 194,
-      "first_date": "2021-07-03",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "mottled-duck",
-      "common": "Mottled Duck",
-      "scientific": "Anas fulvigula",
-      "rank": 195,
-      "first_date": "2021-05-09",
-      "first_location": "Lighthouse Point, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "green-winged-teal",
-      "common": "Green-winged Teal",
-      "scientific": "Anas crecca",
-      "rank": 204,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "redhead",
-      "common": "Redhead",
-      "scientific": "Aythya americana",
-      "rank": 222,
-      "first_date": "2021-07-09",
-      "first_location": "Manitowoc, WI",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "ring-necked-duck",
-      "common": "Ring-necked Duck",
-      "scientific": "Aythya collaris",
-      "rank": 229,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "bufflehead",
-      "common": "Bufflehead",
-      "scientific": "Bucephala albeola",
-      "rank": 246,
-      "first_date": "2022-02-19",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "hooded-merganser",
-      "common": "Hooded Merganser",
-      "scientific": "Lophodytes cucullatus",
-      "rank": 250,
-      "first_date": "2021-11-25",
-      "first_location": "Tallahassee, Florida",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-breasted-merganser",
-      "common": "Red-breasted Merganser",
-      "scientific": "Mergus serrator",
-      "rank": 254,
-      "first_date": "2022-02-19",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "common-nighthawk",
-      "common": "Common Nighthawk",
-      "scientific": "Chordeiles minor",
-      "rank": 586,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "chuck-will-s-widow",
-      "common": "Chuck-will's-widow",
-      "scientific": "Antrostomus carolinensis",
-      "rank": 618,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "chimney-swift",
-      "common": "Chimney Swift",
-      "scientific": "Chaetura pelagica",
-      "rank": 779,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "ruby-throated-hummingbird",
-      "common": "Ruby-throated Hummingbird",
-      "scientific": "Archilochus colubris",
-      "rank": 1050,
-      "first_date": "2021-08-11",
-      "first_location": "Horse Shoe, NC",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "yellow-billed-cuckoo",
-      "common": "Yellow-billed Cuckoo",
-      "scientific": "Coccyzus americanus",
-      "rank": 1311,
-      "first_date": "2022-05-22",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "rock-pigeon",
-      "common": "Rock Pigeon",
-      "scientific": "Columba livia",
-      "rank": 1403,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "eurasian-collared-dove",
-      "common": "Eurasian Collared-Dove",
-      "scientific": "Streptopelia decaocto",
-      "rank": 1465,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "common-ground-dove",
-      "common": "Common Ground Dove",
-      "scientific": "Columbina passerina",
-      "rank": 1526,
-      "first_date": "2021-08-28",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "mourning-dove",
-      "common": "Mourning Dove",
-      "scientific": "Zenaida macroura",
-      "rank": 1570,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "common-gallinule",
-      "common": "Common Gallinule",
-      "scientific": "Gallinula galeata",
-      "rank": 1840,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
     {
       "slug": "american-coot",
       "common": "American Coot",
       "scientific": "Fulica americana",
       "rank": 1854,
-      "first_date": "2021-11-12",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "purple-gallinule",
-      "common": "Purple Gallinule",
-      "scientific": "Porphyrio martinica",
-      "rank": 1858,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "gray-headed-swamphen",
-      "common": "Gray-headed Swamphen",
-      "scientific": "Porphyrio poliocephalus",
-      "rank": 1862,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "sandhill-crane",
-      "common": "Sandhill Crane",
-      "scientific": "Antigone canadensis",
-      "rank": 1930,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "limpkin",
-      "common": "Limpkin",
-      "scientific": "Aramus guarauna",
-      "rank": 1940,
-      "first_date": "2021-05-09",
-      "first_location": "Davie, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "pied-billed-grebe",
-      "common": "Pied-billed Grebe",
-      "scientific": "Podilymbus podiceps",
-      "rank": 1946,
-      "first_date": "2021-07-17",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-flamingo",
-      "common": "American Flamingo",
-      "scientific": "Phoenicopterus ruber",
-      "rank": 1964,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-oystercatcher",
-      "common": "American Oystercatcher",
-      "scientific": "Haematopus palliatus",
-      "rank": 2003,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "black-necked-stilt",
-      "common": "Black-necked Stilt",
-      "scientific": "Himantopus mexicanus",
-      "rank": 2015,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "black-bellied-plover",
-      "common": "Black-bellied Plover",
-      "scientific": "Pluvialis squatarola",
-      "rank": 2022,
-      "first_date": "2021-05-29",
-      "first_location": "Miami, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-golden-plover",
-      "common": "American Golden-Plover",
-      "scientific": "Pluvialis dominica",
-      "rank": 2025,
-      "first_date": "2022-12-29",
-      "first_location": "Wakulla County, FL",
-      "sightings": 17,
-      "photos": [
+      "count": 1,
+      "first": {
+        "date": "2021-11-12",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-11-12",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
         {
-          "src": "/birds/american-golden-plover/1.jpg",
-          "thumb": "/birds/american-golden-plover/1-thumb.jpg",
-          "date": "2022-12-29"
-        },
-        {
-          "src": "/birds/american-golden-plover/2.jpg",
-          "thumb": "/birds/american-golden-plover/2-thumb.jpg",
-          "date": "2022-12-29"
-        },
-        {
-          "src": "/birds/american-golden-plover/3.jpg",
-          "thumb": "/birds/american-golden-plover/3-thumb.jpg",
-          "date": "2022-12-29"
+          "date": "2021-11-12",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
         }
       ]
-    },
-    {
-      "slug": "killdeer",
-      "common": "Killdeer",
-      "scientific": "Charadrius vociferus",
-      "rank": 2030,
-      "first_date": "2021-07-04",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "semipalmated-plover",
-      "common": "Semipalmated Plover",
-      "scientific": "Charadrius semipalmatus",
-      "rank": 2032,
-      "first_date": "2021-05-29",
-      "first_location": "Miami, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "piping-plover",
-      "common": "Piping Plover",
-      "scientific": "Charadrius melodus",
-      "rank": 2033,
-      "first_date": "2021-07-04",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "wilson-s-snipe",
-      "common": "Wilson's Snipe",
-      "scientific": "Gallinago delicata",
-      "rank": 2150,
-      "first_date": "2021-12-03",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "willet",
-      "common": "Willet",
-      "scientific": "Tringa semipalmata",
-      "rank": 2172,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "greater-yellowlegs",
-      "common": "Greater Yellowlegs",
-      "scientific": "Tringa melanoleuca",
-      "rank": 2175,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "ruddy-turnstone",
-      "common": "Ruddy Turnstone",
-      "scientific": "Arenaria interpres",
-      "rank": 2180,
-      "first_date": "2021-02-20",
-      "first_location": "St. Augustine, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "sanderling",
-      "common": "Sanderling",
-      "scientific": "Calidris alba",
-      "rank": 2195,
-      "first_date": "2023-02-04",
-      "first_location": "Wakulla County, FL",
-      "sightings": 1,
-      "photos": [
-        {
-          "src": "/birds/sanderling/1.jpg",
-          "thumb": "/birds/sanderling/1-thumb.jpg",
-          "date": "2023-02-04"
-        }
-      ]
-    },
-    {
-      "slug": "least-sandpiper",
-      "common": "Least Sandpiper",
-      "scientific": "Calidris minutilla",
-      "rank": 2201,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "semipalmated-sandpiper",
-      "common": "Semipalmated Sandpiper",
-      "scientific": "Calidris pusilla",
-      "rank": 2205,
-      "first_date": "2022-06-12",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "least-tern",
-      "common": "Least Tern",
-      "scientific": "Sternula antillarum",
-      "rank": 2241,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "caspian-tern",
-      "common": "Caspian Tern",
-      "scientific": "Hydroprogne caspia",
-      "rank": 2249,
-      "first_date": "2021-02-20",
-      "first_location": "St. Augustine, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "sandwich-tern",
-      "common": "Sandwich Tern",
-      "scientific": "Thalasseus sandvicensis",
-      "rank": 2268,
-      "first_date": "2022-06-12",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "royal-tern",
-      "common": "Royal Tern",
-      "scientific": "Thalasseus maximus",
-      "rank": 2272,
-      "first_date": "2021-07-03",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "laughing-gull",
-      "common": "Laughing Gull",
-      "scientific": "Leucophaeus atricilla",
-      "rank": 2295,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "ring-billed-gull",
-      "common": "Ring-billed Gull",
-      "scientific": "Larus delawarensis",
-      "rank": 2311,
-      "first_date": "2021-07-09",
-      "first_location": "Manitowoc, WI",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "european-herring-gull",
-      "common": "European Herring Gull",
-      "scientific": "Larus argentatus",
-      "rank": 2316,
-      "first_date": "2021-07-09",
-      "first_location": "Manitowoc, WI",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "wood-stork",
-      "common": "Wood Stork",
-      "scientific": "Mycteria americana",
-      "rank": 2543,
-      "first_date": "2021-02-20",
-      "first_location": "St. Augustine, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "magnificent-frigatebird",
-      "common": "Magnificent Frigatebird",
-      "scientific": "Fregata magnificens",
-      "rank": 2559,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "anhinga",
-      "common": "Anhinga",
-      "scientific": "Anhinga anhinga",
-      "rank": 2574,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "double-crested-cormorant",
-      "common": "Double-crested Cormorant",
-      "scientific": "Nannopterum auritum",
-      "rank": 2602,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "white-ibis",
-      "common": "White Ibis",
-      "scientific": "Eudocimus albus",
-      "rank": 2636,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "glossy-ibis",
-      "common": "Glossy Ibis",
-      "scientific": "Plegadis falcinellus",
-      "rank": 2638,
-      "first_date": "2021-04-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "roseate-spoonbill",
-      "common": "Roseate Spoonbill",
-      "scientific": "Platalea ajaja",
-      "rank": 2647,
-      "first_date": "2021-07-17",
-      "first_location": "Loxahatchee, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "least-bittern",
-      "common": "Least Bittern",
-      "scientific": "Botaurus exilis",
-      "rank": 2660,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "yellow-crowned-night-heron",
-      "common": "Yellow-crowned Night Heron",
-      "scientific": "Nyctanassa violacea",
-      "rank": 2669,
-      "first_date": "2021-05-29",
-      "first_location": "Miami, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "black-crowned-night-heron",
-      "common": "Black-crowned Night Heron",
-      "scientific": "Nycticorax nycticorax",
-      "rank": 2671,
-      "first_date": "2021-07-04",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "little-blue-heron",
-      "common": "Little Blue Heron",
-      "scientific": "Egretta caerulea",
-      "rank": 2681,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "tricolored-heron",
-      "common": "Tricolored Heron",
-      "scientific": "Egretta tricolor",
-      "rank": 2682,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "snowy-egret",
-      "common": "Snowy Egret",
-      "scientific": "Egretta thula",
-      "rank": 2688,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "green-heron",
-      "common": "Green Heron",
-      "scientific": "Butorides virescens",
-      "rank": 2698,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "great-egret",
-      "common": "Great Egret",
-      "scientific": "Ardea alba",
-      "rank": 2707,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "yellow-billed-egret",
-      "common": "Yellow-billed Egret",
-      "scientific": "Ardea brachyrhyncha",
-      "rank": 2708,
-      "first_date": "2021-04-09",
-      "first_location": "Wakodahatchee Wetlands, Fl",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "great-blue-heron",
-      "common": "Great Blue Heron",
-      "scientific": "Ardea herodias",
-      "rank": 2714,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-white-pelican",
-      "common": "American White Pelican",
-      "scientific": "Pelecanus erythrorhynchos",
-      "rank": 2729,
-      "first_date": "2021-07-09",
-      "first_location": "Manitowoc, WI",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "brown-pelican",
-      "common": "Brown Pelican",
-      "scientific": "Pelecanus occidentalis",
-      "rank": 2730,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "black-vulture",
-      "common": "Black Vulture",
-      "scientific": "Coragyps atratus",
-      "rank": 2736,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "turkey-vulture",
-      "common": "Turkey Vulture",
-      "scientific": "Cathartes aura",
-      "rank": 2737,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "osprey",
-      "common": "Osprey",
-      "scientific": "Pandion haliaetus",
-      "rank": 2741,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "swallow-tailed-kite",
-      "common": "Swallow-tailed Kite",
-      "scientific": "Elanoides forficatus",
-      "rank": 2767,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "cooper-s-hawk",
-      "common": "Cooper's Hawk",
-      "scientific": "Astur cooperii",
-      "rank": 2889,
-      "first_date": "2021-12-14",
-      "first_location": "Harbor Drive, Pompano Beach, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "bald-eagle",
-      "common": "Bald Eagle",
-      "scientific": "Haliaeetus leucocephalus",
-      "rank": 2924,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "mississippi-kite",
-      "common": "Mississippi Kite",
-      "scientific": "Ictinia mississippiensis",
-      "rank": 2935,
-      "first_date": "2021-08-12",
-      "first_location": "Mills River, NC",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-shouldered-hawk",
-      "common": "Red-shouldered Hawk",
-      "scientific": "Buteo lineatus",
-      "rank": 2968,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-tailed-hawk",
-      "common": "Red-tailed Hawk",
-      "scientific": "Buteo jamaicensis",
-      "rank": 2976,
-      "first_date": "2021-08-13",
-      "first_location": "Hooper Lane, NC",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "burrowing-owl",
-      "common": "Burrowing Owl",
-      "scientific": "Athene cunicularia",
-      "rank": 3061,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "great-horned-owl",
-      "common": "Great Horned Owl",
-      "scientific": "Bubo virginianus",
-      "rank": 3166,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "barred-owl",
-      "common": "Barred Owl",
-      "scientific": "Strix varia",
-      "rank": 3226,
-      "first_date": "2021-07-17",
-      "first_location": "Loxahatchee, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "belted-kingfisher",
-      "common": "Belted Kingfisher",
-      "scientific": "Megaceryle alcyon",
-      "rank": 3500,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-headed-woodpecker",
-      "common": "Red-headed Woodpecker",
-      "scientific": "Melanerpes erythrocephalus",
-      "rank": 3792,
-      "first_date": "2021-07-05",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-bellied-woodpecker",
-      "common": "Red-bellied Woodpecker",
-      "scientific": "Melanerpes carolinus",
-      "rank": 3809,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "downy-woodpecker",
-      "common": "Downy Woodpecker",
-      "scientific": "Dryobates pubescens",
-      "rank": 3860,
-      "first_date": "2021-04-18",
-      "first_location": "Evergreen Cemetary, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "northern-flicker",
-      "common": "Northern Flicker",
-      "scientific": "Colaptes auratus",
-      "rank": 3909,
-      "first_date": "2021-06-12",
-      "first_location": "Jonathan Dickinson State Park, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "pileated-woodpecker",
-      "common": "Pileated Woodpecker",
-      "scientific": "Dryocopus pileatus",
-      "rank": 3931,
-      "first_date": "2021-06-06",
-      "first_location": "Corkscrew Sanctuary, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "crested-caracara",
-      "common": "Crested Caracara",
-      "scientific": "Caracara plancus",
-      "rank": 3995,
-      "first_date": "2021-06-06",
-      "first_location": "SW FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-kestrel",
-      "common": "American Kestrel",
-      "scientific": "Falco sparverius",
-      "rank": 4028,
-      "first_date": "2021-12-24",
-      "first_location": "Davie, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "nanday-parakeet",
-      "common": "Nanday Parakeet",
-      "scientific": "Aratinga nenday",
-      "rank": 4228,
-      "first_date": "2021-07-17",
-      "first_location": "Loxahatchee, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-masked-parakeet",
-      "common": "Red-masked Parakeet",
-      "scientific": "Psittacara erythrogenys",
-      "rank": 4258,
-      "first_date": "2021-05-29",
-      "first_location": "Miami, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "eastern-phoebe",
-      "common": "Eastern Phoebe",
-      "scientific": "Sayornis phoebe",
-      "rank": 5491,
-      "first_date": "2021-08-12",
-      "first_location": "Horse Shoe, NC",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "vermilion-flycatcher",
-      "common": "Vermilion Flycatcher",
-      "scientific": "Pyrocephalus rubinus",
-      "rank": 5526,
-      "first_date": "2022-02-19",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "eastern-kingbird",
-      "common": "Eastern Kingbird",
-      "scientific": "Tyrannus tyrannus",
-      "rank": 5632,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "gray-kingbird",
-      "common": "Gray Kingbird",
-      "scientific": "Tyrannus dominicensis",
-      "rank": 5633,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "great-crested-flycatcher",
-      "common": "Great Crested Flycatcher",
-      "scientific": "Myiarchus crinitus",
-      "rank": 5659,
-      "first_date": "2021-06-06",
-      "first_location": "Corkscrew Sanctuary, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "red-eyed-vireo",
-      "common": "Red-eyed Vireo",
-      "scientific": "Vireo olivaceus",
-      "rank": 6581,
-      "first_date": "2021-07-08",
-      "first_location": "Munising, MI",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "white-eyed-vireo",
-      "common": "White-eyed Vireo",
-      "scientific": "Vireo griseus",
-      "rank": 6604,
-      "first_date": "2021-09-11",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "loggerhead-shrike",
-      "common": "Loggerhead Shrike",
-      "scientific": "Lanius ludovicianus",
-      "rank": 6859,
-      "first_date": "2020-12-27",
-      "first_location": "Naples, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "blue-jay",
-      "common": "Blue Jay",
-      "scientific": "Cyanocitta cristata",
-      "rank": 6916,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "florida-scrub-jay",
-      "common": "Florida Scrub-Jay",
-      "scientific": "Aphelocoma coerulescens",
-      "rank": 6924,
-      "first_date": "2021-06-12",
-      "first_location": "Jonathan Dickinson State Park, FL",
-      "sightings": 1,
-      "photos": []
     },
     {
       "slug": "american-crow",
       "common": "American Crow",
       "scientific": "Corvus brachyrhynchos",
       "rank": 6989,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "fish-crow",
-      "common": "Fish Crow",
-      "scientific": "Corvus ossifragus",
-      "rank": 6992,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "cedar-waxwing",
-      "common": "Cedar Waxwing",
-      "scientific": "Bombycilla cedrorum",
-      "rank": 7125,
-      "first_date": "2021-07-05",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "tufted-titmouse",
-      "common": "Tufted Titmouse",
-      "scientific": "Baeolophus bicolor",
-      "rank": 7161,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "carolina-chickadee",
-      "common": "Carolina Chickadee",
-      "scientific": "Poecile carolinensis",
-      "rank": 7174,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "black-capped-chickadee",
-      "common": "Black-capped Chickadee",
-      "scientific": "Poecile atricapillus",
-      "rank": 7175,
-      "first_date": "2021-07-05",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "bank-swallow",
-      "common": "Bank Swallow",
-      "scientific": "Riparia riparia",
-      "rank": 7494,
-      "first_date": "2021-07-04",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "tree-swallow",
-      "common": "Tree Swallow",
-      "scientific": "Tachycineta bicolor",
-      "rank": 7496,
-      "first_date": "2021-07-04",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "purple-martin",
-      "common": "Purple Martin",
-      "scientific": "Progne subis",
-      "rank": 7508,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "northern-rough-winged-swallow",
-      "common": "Northern Rough-winged Swallow",
-      "scientific": "Stelgidopteryx serripennis",
-      "rank": 7514,
-      "first_date": "2021-09-11",
-      "first_location": "Tallahassee, Florida",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "barn-swallow",
-      "common": "Barn Swallow",
-      "scientific": "Hirundo rustica",
-      "rank": 7539,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "ruby-crowned-kinglet",
-      "common": "Ruby-crowned Kinglet",
-      "scientific": "Corthylio calendula",
-      "rank": 8518,
-      "first_date": "2021-11-12",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "marsh-wren",
-      "common": "Marsh Wren",
-      "scientific": "Cistothorus palustris",
-      "rank": 8558,
-      "first_date": "2021-12-10",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "carolina-wren",
-      "common": "Carolina Wren",
-      "scientific": "Thryothorus ludovicianus",
-      "rank": 8591,
-      "first_date": "2021-06-06",
-      "first_location": "Corkscrew Sanctuary, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "blue-gray-gnatcatcher",
-      "common": "Blue-gray Gnatcatcher",
-      "scientific": "Polioptila caerulea",
-      "rank": 8642,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "white-breasted-nuthatch",
-      "common": "White-breasted Nuthatch",
-      "scientific": "Sitta carolinensis",
-      "rank": 8650,
-      "first_date": "2021-07-05",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "brown-headed-nuthatch",
-      "common": "Brown-headed Nuthatch",
-      "scientific": "Sitta pusilla",
-      "rank": 8657,
-      "first_date": "2021-09-18",
-      "first_location": "Elinor Klapp-Phipps Park",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "gray-catbird",
-      "common": "Gray Catbird",
-      "scientific": "Dumetella carolinensis",
-      "rank": 8688,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "northern-mockingbird",
-      "common": "Northern Mockingbird",
-      "scientific": "Mimus polyglottos",
-      "rank": 8690,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "brown-thrasher",
-      "common": "Brown Thrasher",
-      "scientific": "Toxostoma rufum",
-      "rank": 8705,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "common-hill-myna",
-      "common": "Common Hill Myna",
-      "scientific": "Gracula religiosa",
-      "rank": 8762,
-      "first_date": "2021-05-29",
-      "first_location": "Miami, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "european-starling",
-      "common": "European Starling",
-      "scientific": "Sturnus vulgaris",
-      "rank": 8794,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "eastern-bluebird",
-      "common": "Eastern Bluebird",
-      "scientific": "Sialia sialis",
-      "rank": 8852,
-      "first_date": "2021-08-11",
-      "first_location": "Horse Shoe, NC",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "american-robin",
-      "common": "American Robin",
-      "scientific": "Turdus migratorius",
-      "rank": 9000,
-      "first_date": "2021-07-03",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "house-sparrow",
-      "common": "House Sparrow",
-      "scientific": "Passer domesticus",
-      "rank": 9655,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "house-finch",
-      "common": "House Finch",
-      "scientific": "Haemorhous mexicanus",
-      "rank": 10133,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "american-flamingo",
+      "common": "American Flamingo",
+      "scientific": "Phoenicopterus ruber",
+      "rank": 1964,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
     },
     {
       "slug": "american-goldfinch",
       "common": "American Goldfinch",
       "scientific": "Spinus tristis",
       "rank": 10209,
-      "first_date": "2021-07-04",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
+      "count": 1,
+      "first": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-04",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-kestrel",
+      "common": "American Kestrel",
+      "scientific": "Falco sparverius",
+      "rank": 4028,
+      "count": 1,
+      "first": {
+        "date": "2021-12-24",
+        "place": "Davie, FL"
+      },
+      "latest": {
+        "date": "2021-12-24",
+        "place": "Davie, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-12-24",
+          "place": "Davie, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-oystercatcher",
+      "common": "American Oystercatcher",
+      "scientific": "Haematopus palliatus",
+      "rank": 2003,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-redstart",
+      "common": "American Redstart",
+      "scientific": "Setophaga ruticilla",
+      "rank": 10610,
+      "count": 1,
+      "first": {
+        "date": "2021-07-08",
+        "place": "Munising, MI"
+      },
+      "latest": {
+        "date": "2021-07-08",
+        "place": "Munising, MI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-08",
+          "place": "Munising, MI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-robin",
+      "common": "American Robin",
+      "scientific": "Turdus migratorius",
+      "rank": 9000,
+      "count": 1,
+      "first": {
+        "date": "2021-07-03",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-03",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-03",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-white-pelican",
+      "common": "American White Pelican",
+      "scientific": "Pelecanus erythrorhynchos",
+      "rank": 2729,
+      "count": 1,
+      "first": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI"
+      },
+      "latest": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-09",
+          "place": "Manitowoc, WI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-wigeon",
+      "common": "American Wigeon",
+      "scientific": "Mareca americana",
+      "rank": 183,
+      "count": 1,
+      "first": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-02-19",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "anhinga",
+      "common": "Anhinga",
+      "scientific": "Anhinga anhinga",
+      "rank": 2574,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "bald-eagle",
+      "common": "Bald Eagle",
+      "scientific": "Haliaeetus leucocephalus",
+      "rank": 2924,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "baltimore-oriole",
+      "common": "Baltimore Oriole",
+      "scientific": "Icterus galbula",
+      "rank": 10506,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "bank-swallow",
+      "common": "Bank Swallow",
+      "scientific": "Riparia riparia",
+      "rank": 7494,
+      "count": 1,
+      "first": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-04",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "barn-swallow",
+      "common": "Barn Swallow",
+      "scientific": "Hirundo rustica",
+      "rank": 7539,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "FL"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "barred-owl",
+      "common": "Barred Owl",
+      "scientific": "Strix varia",
+      "rank": 3226,
+      "count": 1,
+      "first": {
+        "date": "2021-07-17",
+        "place": "Loxahatchee, FL"
+      },
+      "latest": {
+        "date": "2021-07-17",
+        "place": "Loxahatchee, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-17",
+          "place": "Loxahatchee, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "belted-kingfisher",
+      "common": "Belted Kingfisher",
+      "scientific": "Megaceryle alcyon",
+      "rank": 3500,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-and-white-warbler",
+      "common": "Black-and-white Warbler",
+      "scientific": "Mniotilta varia",
+      "rank": 10578,
+      "count": 1,
+      "first": {
+        "date": "2021-08-13",
+        "place": "Mills River, NC"
+      },
+      "latest": {
+        "date": "2021-08-13",
+        "place": "Mills River, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-13",
+          "place": "Mills River, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-vulture",
+      "common": "Black Vulture",
+      "scientific": "Coragyps atratus",
+      "rank": 2736,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-bellied-plover",
+      "common": "Black-bellied Plover",
+      "scientific": "Pluvialis squatarola",
+      "rank": 2022,
+      "count": 1,
+      "first": {
+        "date": "2021-05-29",
+        "place": "Miami, FL"
+      },
+      "latest": {
+        "date": "2021-05-29",
+        "place": "Miami, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-29",
+          "place": "Miami, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-bellied-whistling-duck",
+      "common": "Black-bellied Whistling-Duck",
+      "scientific": "Dendrocygna autumnalis",
+      "rank": 64,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-capped-chickadee",
+      "common": "Black-capped Chickadee",
+      "scientific": "Poecile atricapillus",
+      "rank": 7175,
+      "count": 1,
+      "first": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-05",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-crowned-night-heron",
+      "common": "Black-crowned Night Heron",
+      "scientific": "Nycticorax nycticorax",
+      "rank": 2671,
+      "count": 1,
+      "first": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-04",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-necked-stilt",
+      "common": "Black-necked Stilt",
+      "scientific": "Himantopus mexicanus",
+      "rank": 2015,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-throated-blue-warbler",
+      "common": "Black-throated Blue Warbler",
+      "scientific": "Setophaga caerulescens",
+      "rank": 10623,
+      "count": 1,
+      "first": {
+        "date": "2021-07-08",
+        "place": "Munising, MI"
+      },
+      "latest": {
+        "date": "2021-07-08",
+        "place": "Munising, MI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-08",
+          "place": "Munising, MI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "black-throated-green-warbler",
+      "common": "Black-throated Green Warbler",
+      "scientific": "Setophaga virens",
+      "rank": 10640,
+      "count": 1,
+      "first": {
+        "date": "2021-04-18",
+        "place": "Evergreen Cemetary, FL"
+      },
+      "latest": {
+        "date": "2021-04-18",
+        "place": "Evergreen Cemetary, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-18",
+          "place": "Evergreen Cemetary, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "blue-jay",
+      "common": "Blue Jay",
+      "scientific": "Cyanocitta cristata",
+      "rank": 6916,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "blue-gray-gnatcatcher",
+      "common": "Blue-gray Gnatcatcher",
+      "scientific": "Polioptila caerulea",
+      "rank": 8642,
+      "count": 1,
+      "first": {
+        "date": "7/UNK/2021",
+        "place": "Orlando, FL"
+      },
+      "latest": {
+        "date": "7/UNK/2021",
+        "place": "Orlando, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "7/UNK/2021",
+          "place": "Orlando, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "blue-winged-teal",
+      "common": "Blue-winged Teal",
+      "scientific": "Spatula discors",
+      "rank": 175,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "boat-tailed-grackle",
+      "common": "Boat-tailed Grackle",
+      "scientific": "Quiscalus major",
+      "rank": 10548,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "brown-pelican",
+      "common": "Brown Pelican",
+      "scientific": "Pelecanus occidentalis",
+      "rank": 2730,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "brown-thrasher",
+      "common": "Brown Thrasher",
+      "scientific": "Toxostoma rufum",
+      "rank": 8705,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "FL"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "brown-headed-cowbird",
+      "common": "Brown-headed Cowbird",
+      "scientific": "Molothrus ater",
+      "rank": 10538,
+      "count": 1,
+      "first": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-05",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "brown-headed-nuthatch",
+      "common": "Brown-headed Nuthatch",
+      "scientific": "Sitta pusilla",
+      "rank": 8657,
+      "count": 1,
+      "first": {
+        "date": "2021-09-18",
+        "place": "Elinor Klapp-Phipps Park"
+      },
+      "latest": {
+        "date": "2021-09-18",
+        "place": "Elinor Klapp-Phipps Park",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-18",
+          "place": "Elinor Klapp-Phipps Park",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "bufflehead",
+      "common": "Bufflehead",
+      "scientific": "Bucephala albeola",
+      "rank": 246,
+      "count": 1,
+      "first": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-02-19",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "canada-goose",
+      "common": "Canada Goose",
+      "scientific": "Branta canadensis",
+      "rank": 76,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "carolina-chickadee",
+      "common": "Carolina Chickadee",
+      "scientific": "Poecile carolinensis",
+      "rank": 7174,
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "carolina-wren",
+      "common": "Carolina Wren",
+      "scientific": "Thryothorus ludovicianus",
+      "rank": 8591,
+      "count": 1,
+      "first": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL"
+      },
+      "latest": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-06",
+          "place": "Corkscrew Sanctuary, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "caspian-tern",
+      "common": "Caspian Tern",
+      "scientific": "Hydroprogne caspia",
+      "rank": 2249,
+      "count": 1,
+      "first": {
+        "date": "2021-02-20",
+        "place": "St. Augustine, FL"
+      },
+      "latest": {
+        "date": "2021-02-20",
+        "place": "St. Augustine, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-02-20",
+          "place": "St. Augustine, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "yellow-billed-egret",
+      "common": "Yellow-billed Egret",
+      "scientific": "Ardea brachyrhyncha",
+      "rank": 2708,
+      "count": 1,
+      "first": {
+        "date": "2021-04-09",
+        "place": "Wakodahatchee Wetlands, Fl"
+      },
+      "latest": {
+        "date": "2021-04-09",
+        "place": "Wakodahatchee Wetlands, Fl",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-09",
+          "place": "Wakodahatchee Wetlands, Fl",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "cedar-waxwing",
+      "common": "Cedar Waxwing",
+      "scientific": "Bombycilla cedrorum",
+      "rank": 7125,
+      "count": 1,
+      "first": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-05",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "chestnut-sided-warbler",
+      "common": "Chestnut-sided Warbler",
+      "scientific": "Setophaga pensylvanica",
+      "rank": 10621,
+      "count": 1,
+      "first": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-25",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "chimney-swift",
+      "common": "Chimney Swift",
+      "scientific": "Chaetura pelagica",
+      "rank": 779,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "FL"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "FL",
+          "photo": null
+        }
+      ]
     },
     {
       "slug": "chipping-sparrow",
       "common": "Chipping Sparrow",
       "scientific": "Spizella passerina",
       "rank": 10344,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "song-sparrow",
-      "common": "Song Sparrow",
-      "scientific": "Melospiza melodia",
-      "rank": 10396,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "swamp-sparrow",
-      "common": "Swamp Sparrow",
-      "scientific": "Melospiza georgiana",
-      "rank": 10398,
-      "first_date": "2022-12-29",
-      "first_location": "Wakulla County, FL",
-      "sightings": 1,
-      "photos": [
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
         {
-          "src": "/birds/swamp-sparrow/1.jpg",
-          "thumb": "/birds/swamp-sparrow/1-thumb.jpg",
-          "date": "2022-12-29"
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "chuck-will-s-widow",
+      "common": "Chuck-will's-widow",
+      "scientific": "Antrostomus carolinensis",
+      "rank": 618,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "common-gallinule",
+      "common": "Common Gallinule",
+      "scientific": "Gallinula galeata",
+      "rank": 1840,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "common-grackle",
+      "common": "Common Grackle",
+      "scientific": "Quiscalus quiscula",
+      "rank": 10544,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "common-ground-dove",
+      "common": "Common Ground Dove",
+      "scientific": "Columbina passerina",
+      "rank": 1526,
+      "count": 1,
+      "first": {
+        "date": "2021-08-28",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-08-28",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-28",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "common-hill-myna",
+      "common": "Common Hill Myna",
+      "scientific": "Gracula religiosa",
+      "rank": 8762,
+      "count": 1,
+      "first": {
+        "date": "2021-05-29",
+        "place": "Miami, FL"
+      },
+      "latest": {
+        "date": "2021-05-29",
+        "place": "Miami, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-29",
+          "place": "Miami, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "common-nighthawk",
+      "common": "Common Nighthawk",
+      "scientific": "Chordeiles minor",
+      "rank": 586,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "common-yellowthroat",
+      "common": "Common Yellowthroat",
+      "scientific": "Geothlypis trichas",
+      "rank": 10603,
+      "count": 1,
+      "first": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-25",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "cooper-s-hawk",
+      "common": "Cooper's Hawk",
+      "scientific": "Astur cooperii",
+      "rank": 2889,
+      "count": 1,
+      "first": {
+        "date": "2021-12-14",
+        "place": "Harbor Drive, Pompano Beach, FL"
+      },
+      "latest": {
+        "date": "2021-12-14",
+        "place": "Harbor Drive, Pompano Beach, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-12-14",
+          "place": "Harbor Drive, Pompano Beach, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "crested-caracara",
+      "common": "Crested Caracara",
+      "scientific": "Caracara plancus",
+      "rank": 3995,
+      "count": 1,
+      "first": {
+        "date": "2021-06-06",
+        "place": "SW FL"
+      },
+      "latest": {
+        "date": "2021-06-06",
+        "place": "SW FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-06",
+          "place": "SW FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "double-crested-cormorant",
+      "common": "Double-crested Cormorant",
+      "scientific": "Nannopterum auritum",
+      "rank": 2602,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "downy-woodpecker",
+      "common": "Downy Woodpecker",
+      "scientific": "Dryobates pubescens",
+      "rank": 3860,
+      "count": 1,
+      "first": {
+        "date": "2021-04-18",
+        "place": "Evergreen Cemetary, FL"
+      },
+      "latest": {
+        "date": "2021-04-18",
+        "place": "Evergreen Cemetary, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-18",
+          "place": "Evergreen Cemetary, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "eastern-bluebird",
+      "common": "Eastern Bluebird",
+      "scientific": "Sialia sialis",
+      "rank": 8852,
+      "count": 1,
+      "first": {
+        "date": "2021-08-11",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "2021-08-11",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-11",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "eastern-kingbird",
+      "common": "Eastern Kingbird",
+      "scientific": "Tyrannus tyrannus",
+      "rank": 5632,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "eastern-meadowlark",
+      "common": "Eastern Meadowlark",
+      "scientific": "Sturnella magna",
+      "rank": 10469,
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Mills River, NC"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Mills River, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Mills River, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "eastern-phoebe",
+      "common": "Eastern Phoebe",
+      "scientific": "Sayornis phoebe",
+      "rank": 5491,
+      "count": 1,
+      "first": {
+        "date": "2021-08-12",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "2021-08-12",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-12",
+          "place": "Horse Shoe, NC",
+          "photo": null
         }
       ]
     },
@@ -1396,199 +1424,1270 @@
       "common": "Eastern Towhee",
       "scientific": "Pipilo erythrophthalmus",
       "rank": 10415,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "eastern-meadowlark",
-      "common": "Eastern Meadowlark",
-      "scientific": "Sturnella magna",
-      "rank": 10469,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "egyptian-goose",
+      "common": "Egyptian Goose",
+      "scientific": "Alopochen aegyptiaca",
+      "rank": 139,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "baltimore-oriole",
-      "common": "Baltimore Oriole",
-      "scientific": "Icterus galbula",
-      "rank": 10506,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "eurasian-collared-dove",
+      "common": "Eurasian Collared-Dove",
+      "scientific": "Streptopelia decaocto",
+      "rank": 1465,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "spot-breasted-oriole",
-      "common": "Spot-breasted Oriole",
-      "scientific": "Icterus pectoralis",
-      "rank": 10508,
-      "first_date": "2021-12-17",
-      "first_location": "Plantation Preserve, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "european-starling",
+      "common": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "rank": 8794,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "orchard-oriole",
-      "common": "Orchard Oriole",
-      "scientific": "Icterus spurius",
-      "rank": 10517,
-      "first_date": "2021-08-28",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "fish-crow",
+      "common": "Fish Crow",
+      "scientific": "Corvus ossifragus",
+      "rank": 6992,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "red-winged-blackbird",
-      "common": "Red-winged Blackbird",
-      "scientific": "Agelaius phoeniceus",
-      "rank": 10532,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "burrowing-owl",
+      "common": "Burrowing Owl",
+      "scientific": "Athene cunicularia",
+      "rank": 3061,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "Davie, FL"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "Davie, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "Davie, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "brown-headed-cowbird",
-      "common": "Brown-headed Cowbird",
-      "scientific": "Molothrus ater",
-      "rank": 10538,
-      "first_date": "2021-07-05",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
+      "slug": "florida-scrub-jay",
+      "common": "Florida Scrub-Jay",
+      "scientific": "Aphelocoma coerulescens",
+      "rank": 6924,
+      "count": 1,
+      "first": {
+        "date": "2021-06-12",
+        "place": "Jonathan Dickinson State Park, FL"
+      },
+      "latest": {
+        "date": "2021-06-12",
+        "place": "Jonathan Dickinson State Park, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-12",
+          "place": "Jonathan Dickinson State Park, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "common-grackle",
-      "common": "Common Grackle",
-      "scientific": "Quiscalus quiscula",
-      "rank": 10544,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "gadwall",
+      "common": "Gadwall",
+      "scientific": "Mareca strepera",
+      "rank": 179,
+      "count": 1,
+      "first": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-02-19",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "boat-tailed-grackle",
-      "common": "Boat-tailed Grackle",
-      "scientific": "Quiscalus major",
-      "rank": 10548,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "glossy-ibis",
+      "common": "Glossy Ibis",
+      "scientific": "Plegadis falcinellus",
+      "rank": 2638,
+      "count": 1,
+      "first": {
+        "date": "2021-04-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-04-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "northern-waterthrush",
-      "common": "Northern Waterthrush",
-      "scientific": "Parkesia noveboracensis",
-      "rank": 10574,
-      "first_date": "2021-05-08",
-      "first_location": "Green Cay, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "gray-catbird",
+      "common": "Gray Catbird",
+      "scientific": "Dumetella carolinensis",
+      "rank": 8688,
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Mills River, NC"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Mills River, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Mills River, NC",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "black-and-white-warbler",
-      "common": "Black-and-white Warbler",
-      "scientific": "Mniotilta varia",
-      "rank": 10578,
-      "first_date": "2021-08-13",
-      "first_location": "Mills River, NC",
-      "sightings": 1,
-      "photos": []
+      "slug": "gray-kingbird",
+      "common": "Gray Kingbird",
+      "scientific": "Tyrannus dominicensis",
+      "rank": 5633,
+      "count": 1,
+      "first": {
+        "date": "7/UNK/2021",
+        "place": "Pompano Beach, FL"
+      },
+      "latest": {
+        "date": "7/UNK/2021",
+        "place": "Pompano Beach, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "7/UNK/2021",
+          "place": "Pompano Beach, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "tennessee-warbler",
-      "common": "Tennessee Warbler",
-      "scientific": "Leiothlypis peregrina",
-      "rank": 10583,
-      "first_date": "2021-09-25",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "gray-headed-swamphen",
+      "common": "Gray-headed Swamphen",
+      "scientific": "Porphyrio poliocephalus",
+      "rank": 1862,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "orange-crowned-warbler",
-      "common": "Orange-crowned Warbler",
-      "scientific": "Leiothlypis celata",
-      "rank": 10584,
-      "first_date": "2021-12-17",
-      "first_location": "Plantation Preserve, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "great-blue-heron",
+      "common": "Great Blue Heron",
+      "scientific": "Ardea herodias",
+      "rank": 2714,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "common-yellowthroat",
-      "common": "Common Yellowthroat",
-      "scientific": "Geothlypis trichas",
-      "rank": 10603,
-      "first_date": "2021-09-25",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "great-crested-flycatcher",
+      "common": "Great Crested Flycatcher",
+      "scientific": "Myiarchus crinitus",
+      "rank": 5659,
+      "count": 1,
+      "first": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL"
+      },
+      "latest": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-06",
+          "place": "Corkscrew Sanctuary, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "american-redstart",
-      "common": "American Redstart",
-      "scientific": "Setophaga ruticilla",
-      "rank": 10610,
-      "first_date": "2021-07-08",
-      "first_location": "Munising, MI",
-      "sightings": 1,
-      "photos": []
+      "slug": "great-egret",
+      "common": "Great Egret",
+      "scientific": "Ardea alba",
+      "rank": 2707,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "great-horned-owl",
+      "common": "Great Horned Owl",
+      "scientific": "Bubo virginianus",
+      "rank": 3166,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "greater-white-fronted-goose",
+      "common": "Greater White-fronted Goose",
+      "scientific": "Anser albifrons",
+      "rank": 88,
+      "count": 1,
+      "first": {
+        "date": "2021-08-13",
+        "place": "Mills River, NC"
+      },
+      "latest": {
+        "date": "2021-08-13",
+        "place": "Mills River, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-13",
+          "place": "Mills River, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "greater-yellowlegs",
+      "common": "Greater Yellowlegs",
+      "scientific": "Tringa melanoleuca",
+      "rank": 2175,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "green-heron",
+      "common": "Green Heron",
+      "scientific": "Butorides virescens",
+      "rank": 2698,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "green-winged-teal",
+      "common": "Green-winged Teal",
+      "scientific": "Anas crecca",
+      "rank": 204,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "european-herring-gull",
+      "common": "European Herring Gull",
+      "scientific": "Larus argentatus",
+      "rank": 2316,
+      "count": 1,
+      "first": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI"
+      },
+      "latest": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-09",
+          "place": "Manitowoc, WI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "hooded-merganser",
+      "common": "Hooded Merganser",
+      "scientific": "Lophodytes cucullatus",
+      "rank": 250,
+      "count": 1,
+      "first": {
+        "date": "2021-11-25",
+        "place": "Tallahassee, Florida"
+      },
+      "latest": {
+        "date": "2021-11-25",
+        "place": "Tallahassee, Florida",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-25",
+          "place": "Tallahassee, Florida",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "house-finch",
+      "common": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "rank": 10133,
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "house-sparrow",
+      "common": "House Sparrow",
+      "scientific": "Passer domesticus",
+      "rank": 9655,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "indigo-bunting",
+      "common": "Indigo Bunting",
+      "scientific": "Passerina cyanea",
+      "rank": 10736,
+      "count": 1,
+      "first": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-05",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "killdeer",
+      "common": "Killdeer",
+      "scientific": "Charadrius vociferus",
+      "rank": 2030,
+      "count": 1,
+      "first": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-04",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "laughing-gull",
+      "common": "Laughing Gull",
+      "scientific": "Leucophaeus atricilla",
+      "rank": 2295,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "least-bittern",
+      "common": "Least Bittern",
+      "scientific": "Botaurus exilis",
+      "rank": 2660,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "least-sandpiper",
+      "common": "Least Sandpiper",
+      "scientific": "Calidris minutilla",
+      "rank": 2201,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "least-tern",
+      "common": "Least Tern",
+      "scientific": "Sternula antillarum",
+      "rank": 2241,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "limpkin",
+      "common": "Limpkin",
+      "scientific": "Aramus guarauna",
+      "rank": 1940,
+      "count": 1,
+      "first": {
+        "date": "2021-05-09",
+        "place": "Davie, FL"
+      },
+      "latest": {
+        "date": "2021-05-09",
+        "place": "Davie, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-09",
+          "place": "Davie, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "little-blue-heron",
+      "common": "Little Blue Heron",
+      "scientific": "Egretta caerulea",
+      "rank": 2681,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "loggerhead-shrike",
+      "common": "Loggerhead Shrike",
+      "scientific": "Lanius ludovicianus",
+      "rank": 6859,
+      "count": 1,
+      "first": {
+        "date": "2020-12-27",
+        "place": "Naples, FL"
+      },
+      "latest": {
+        "date": "2020-12-27",
+        "place": "Naples, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2020-12-27",
+          "place": "Naples, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "magnificent-frigatebird",
+      "common": "Magnificent Frigatebird",
+      "scientific": "Fregata magnificens",
+      "rank": 2559,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
       "slug": "magnolia-warbler",
       "common": "Magnolia Warbler",
       "scientific": "Setophaga magnolia",
       "rank": 10616,
-      "first_date": "2021-09-25",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "chestnut-sided-warbler",
-      "common": "Chestnut-sided Warbler",
-      "scientific": "Setophaga pensylvanica",
-      "rank": 10621,
-      "first_date": "2021-09-25",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "black-throated-blue-warbler",
-      "common": "Black-throated Blue Warbler",
-      "scientific": "Setophaga caerulescens",
-      "rank": 10623,
-      "first_date": "2021-07-08",
-      "first_location": "Munising, MI",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "palm-warbler",
-      "common": "Palm Warbler",
-      "scientific": "Setophaga palmarum",
-      "rank": 10624,
-      "first_date": "2022-12-29",
-      "first_location": "Wakulla County, FL",
-      "sightings": 2,
-      "photos": [
+      "count": 1,
+      "first": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
         {
-          "src": "/birds/palm-warbler/1.jpg",
-          "thumb": "/birds/palm-warbler/1-thumb.jpg",
-          "date": "2022-12-29"
-        },
+          "date": "2021-09-25",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "mallard",
+      "common": "Mallard",
+      "scientific": "Anas platyrhynchos",
+      "rank": 194,
+      "count": 1,
+      "first": {
+        "date": "2021-07-03",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-03",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
         {
-          "src": "/birds/palm-warbler/2.jpg",
-          "thumb": "/birds/palm-warbler/2-thumb.jpg",
-          "date": "2022-12-29"
+          "date": "2021-07-03",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "marsh-wren",
+      "common": "Marsh Wren",
+      "scientific": "Cistothorus palustris",
+      "rank": 8558,
+      "count": 1,
+      "first": {
+        "date": "2021-12-10",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-12-10",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-12-10",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "mississippi-kite",
+      "common": "Mississippi Kite",
+      "scientific": "Ictinia mississippiensis",
+      "rank": 2935,
+      "count": 1,
+      "first": {
+        "date": "2021-08-12",
+        "place": "Mills River, NC"
+      },
+      "latest": {
+        "date": "2021-08-12",
+        "place": "Mills River, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-12",
+          "place": "Mills River, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "mottled-duck",
+      "common": "Mottled Duck",
+      "scientific": "Anas fulvigula",
+      "rank": 195,
+      "count": 1,
+      "first": {
+        "date": "2021-05-09",
+        "place": "Lighthouse Point, FL"
+      },
+      "latest": {
+        "date": "2021-05-09",
+        "place": "Lighthouse Point, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-09",
+          "place": "Lighthouse Point, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "mourning-dove",
+      "common": "Mourning Dove",
+      "scientific": "Zenaida macroura",
+      "rank": 1570,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "muscovy-duck",
+      "common": "Muscovy Duck",
+      "scientific": "Cairina moschata",
+      "rank": 155,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "nanday-parakeet",
+      "common": "Nanday Parakeet",
+      "scientific": "Aratinga nenday",
+      "rank": 4228,
+      "count": 1,
+      "first": {
+        "date": "2021-07-17",
+        "place": "Loxahatchee, FL"
+      },
+      "latest": {
+        "date": "2021-07-17",
+        "place": "Loxahatchee, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-17",
+          "place": "Loxahatchee, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "northern-cardinal",
+      "common": "Northern Cardinal",
+      "scientific": "Cardinalis cardinalis",
+      "rank": 10718,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "northern-flicker",
+      "common": "Northern Flicker",
+      "scientific": "Colaptes auratus",
+      "rank": 3909,
+      "count": 1,
+      "first": {
+        "date": "2021-06-12",
+        "place": "Jonathan Dickinson State Park, FL"
+      },
+      "latest": {
+        "date": "2021-06-12",
+        "place": "Jonathan Dickinson State Park, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-12",
+          "place": "Jonathan Dickinson State Park, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "northern-mockingbird",
+      "common": "Northern Mockingbird",
+      "scientific": "Mimus polyglottos",
+      "rank": 8690,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "northern-rough-winged-swallow",
+      "common": "Northern Rough-winged Swallow",
+      "scientific": "Stelgidopteryx serripennis",
+      "rank": 7514,
+      "count": 1,
+      "first": {
+        "date": "2021-09-11",
+        "place": "Tallahassee, Florida"
+      },
+      "latest": {
+        "date": "2021-09-11",
+        "place": "Tallahassee, Florida",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-11",
+          "place": "Tallahassee, Florida",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "northern-waterthrush",
+      "common": "Northern Waterthrush",
+      "scientific": "Parkesia noveboracensis",
+      "rank": 10574,
+      "count": 1,
+      "first": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-05-08",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-08",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "orange-crowned-warbler",
+      "common": "Orange-crowned Warbler",
+      "scientific": "Leiothlypis celata",
+      "rank": 10584,
+      "count": 1,
+      "first": {
+        "date": "2021-12-17",
+        "place": "Plantation Preserve, FL"
+      },
+      "latest": {
+        "date": "2021-12-17",
+        "place": "Plantation Preserve, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-12-17",
+          "place": "Plantation Preserve, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "orchard-oriole",
+      "common": "Orchard Oriole",
+      "scientific": "Icterus spurius",
+      "rank": 10517,
+      "count": 1,
+      "first": {
+        "date": "2021-08-28",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-08-28",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-28",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "osprey",
+      "common": "Osprey",
+      "scientific": "Pandion haliaetus",
+      "rank": 2741,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "painted-bunting",
+      "common": "Painted Bunting",
+      "scientific": "Passerina ciris",
+      "rank": 10739,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "Davie, FL"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "Davie, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "Davie, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "pied-billed-grebe",
+      "common": "Pied-billed Grebe",
+      "scientific": "Podilymbus podiceps",
+      "rank": 1946,
+      "count": 1,
+      "first": {
+        "date": "2021-07-17",
+        "place": "Green Cay, FL"
+      },
+      "latest": {
+        "date": "2021-07-17",
+        "place": "Green Cay, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-17",
+          "place": "Green Cay, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "pileated-woodpecker",
+      "common": "Pileated Woodpecker",
+      "scientific": "Dryocopus pileatus",
+      "rank": 3931,
+      "count": 1,
+      "first": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL"
+      },
+      "latest": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-06",
+          "place": "Corkscrew Sanctuary, FL",
+          "photo": null
         }
       ]
     },
@@ -1597,110 +2696,1360 @@
       "common": "Pine Warbler",
       "scientific": "Setophaga pinus",
       "rank": 10626,
-      "first_date": "2021-09-18",
-      "first_location": "Elinor Klapp-Phipps Park",
-      "sightings": 1,
-      "photos": []
+      "count": 1,
+      "first": {
+        "date": "2021-09-18",
+        "place": "Elinor Klapp-Phipps Park"
+      },
+      "latest": {
+        "date": "2021-09-18",
+        "place": "Elinor Klapp-Phipps Park",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-18",
+          "place": "Elinor Klapp-Phipps Park",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "yellow-rumped-warbler",
-      "common": "Yellow-rumped Warbler",
-      "scientific": "Setophaga coronata",
-      "rank": 10627,
-      "first_date": "2021-11-13",
-      "first_location": "St. Mark's National Wildlife Refuge, FL",
-      "sightings": 1,
-      "photos": []
-    },
-    {
-      "slug": "yellow-throated-warbler",
-      "common": "Yellow-throated Warbler",
-      "scientific": "Setophaga dominica",
-      "rank": 10628,
-      "first_date": "2021-10-26",
-      "first_location": "Chartre Oaks, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "piping-plover",
+      "common": "Piping Plover",
+      "scientific": "Charadrius melodus",
+      "rank": 2033,
+      "count": 1,
+      "first": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-04",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
     },
     {
       "slug": "prairie-warbler",
       "common": "Prairie Warbler",
       "scientific": "Setophaga discolor",
       "rank": 10631,
-      "first_date": "2021-09-11",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
+      "count": 1,
+      "first": {
+        "date": "2021-09-11",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-11",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-11",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "black-throated-green-warbler",
-      "common": "Black-throated Green Warbler",
-      "scientific": "Setophaga virens",
-      "rank": 10640,
-      "first_date": "2021-04-18",
-      "first_location": "Evergreen Cemetary, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "purple-gallinule",
+      "common": "Purple Gallinule",
+      "scientific": "Porphyrio martinica",
+      "rank": 1858,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "summer-tanager",
-      "common": "Summer Tanager",
-      "scientific": "Piranga rubra",
-      "rank": 10692,
-      "first_date": "2021-09-11",
-      "first_location": "Faulk Drive Landing, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "purple-martin",
+      "common": "Purple Martin",
+      "scientific": "Progne subis",
+      "rank": 7508,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "scarlet-tanager",
-      "common": "Scarlet Tanager",
-      "scientific": "Piranga olivacea",
-      "rank": 10694,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
+      "slug": "red-bellied-woodpecker",
+      "common": "Red-bellied Woodpecker",
+      "scientific": "Melanerpes carolinus",
+      "rank": 3809,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-breasted-merganser",
+      "common": "Red-breasted Merganser",
+      "scientific": "Mergus serrator",
+      "rank": 254,
+      "count": 1,
+      "first": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-02-19",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-eyed-vireo",
+      "common": "Red-eyed Vireo",
+      "scientific": "Vireo olivaceus",
+      "rank": 6581,
+      "count": 1,
+      "first": {
+        "date": "2021-07-08",
+        "place": "Munising, MI"
+      },
+      "latest": {
+        "date": "2021-07-08",
+        "place": "Munising, MI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-08",
+          "place": "Munising, MI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-headed-woodpecker",
+      "common": "Red-headed Woodpecker",
+      "scientific": "Melanerpes erythrocephalus",
+      "rank": 3792,
+      "count": 1,
+      "first": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-05",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-masked-parakeet",
+      "common": "Red-masked Parakeet",
+      "scientific": "Psittacara erythrogenys",
+      "rank": 4258,
+      "count": 1,
+      "first": {
+        "date": "2021-05-29",
+        "place": "Miami, FL"
+      },
+      "latest": {
+        "date": "2021-05-29",
+        "place": "Miami, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-29",
+          "place": "Miami, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-shouldered-hawk",
+      "common": "Red-shouldered Hawk",
+      "scientific": "Buteo lineatus",
+      "rank": 2968,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-tailed-hawk",
+      "common": "Red-tailed Hawk",
+      "scientific": "Buteo jamaicensis",
+      "rank": 2976,
+      "count": 1,
+      "first": {
+        "date": "2021-08-13",
+        "place": "Hooper Lane, NC"
+      },
+      "latest": {
+        "date": "2021-08-13",
+        "place": "Hooper Lane, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-13",
+          "place": "Hooper Lane, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "red-winged-blackbird",
+      "common": "Red-winged Blackbird",
+      "scientific": "Agelaius phoeniceus",
+      "rank": 10532,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "redhead",
+      "common": "Redhead",
+      "scientific": "Aythya americana",
+      "rank": 222,
+      "count": 1,
+      "first": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI"
+      },
+      "latest": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-09",
+          "place": "Manitowoc, WI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "ring-billed-gull",
+      "common": "Ring-billed Gull",
+      "scientific": "Larus delawarensis",
+      "rank": 2311,
+      "count": 1,
+      "first": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI"
+      },
+      "latest": {
+        "date": "2021-07-09",
+        "place": "Manitowoc, WI",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-09",
+          "place": "Manitowoc, WI",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "ring-necked-duck",
+      "common": "Ring-necked Duck",
+      "scientific": "Aythya collaris",
+      "rank": 229,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "rock-pigeon",
+      "common": "Rock Pigeon",
+      "scientific": "Columba livia",
+      "rank": 1403,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
     },
     {
       "slug": "rose-breasted-grosbeak",
       "common": "Rose-breasted Grosbeak",
       "scientific": "Pheucticus ludovicianus",
       "rank": 10712,
-      "first_date": "2021-04-25",
-      "first_location": "St. George Island, FL",
-      "sightings": 1,
-      "photos": []
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "northern-cardinal",
-      "common": "Northern Cardinal",
-      "scientific": "Cardinalis cardinalis",
-      "rank": 10718,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "roseate-spoonbill",
+      "common": "Roseate Spoonbill",
+      "scientific": "Platalea ajaja",
+      "rank": 2647,
+      "count": 1,
+      "first": {
+        "date": "2021-07-17",
+        "place": "Loxahatchee, FL"
+      },
+      "latest": {
+        "date": "2021-07-17",
+        "place": "Loxahatchee, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-17",
+          "place": "Loxahatchee, FL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "indigo-bunting",
-      "common": "Indigo Bunting",
-      "scientific": "Passerina cyanea",
-      "rank": 10736,
-      "first_date": "2021-07-05",
-      "first_location": "Chicago, IL",
-      "sightings": 1,
-      "photos": []
+      "slug": "royal-tern",
+      "common": "Royal Tern",
+      "scientific": "Thalasseus maximus",
+      "rank": 2272,
+      "count": 1,
+      "first": {
+        "date": "2021-07-03",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-03",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-03",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
     },
     {
-      "slug": "painted-bunting",
-      "common": "Painted Bunting",
-      "scientific": "Passerina ciris",
-      "rank": 10739,
-      "first_date": "",
-      "first_location": "",
-      "sightings": 1,
-      "photos": []
+      "slug": "ruby-crowned-kinglet",
+      "common": "Ruby-crowned Kinglet",
+      "scientific": "Corthylio calendula",
+      "rank": 8518,
+      "count": 1,
+      "first": {
+        "date": "2021-11-12",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-11-12",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-12",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "ruby-throated-hummingbird",
+      "common": "Ruby-throated Hummingbird",
+      "scientific": "Archilochus colubris",
+      "rank": 1050,
+      "count": 1,
+      "first": {
+        "date": "2021-08-11",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "2021-08-11",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-08-11",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "ruddy-turnstone",
+      "common": "Ruddy Turnstone",
+      "scientific": "Arenaria interpres",
+      "rank": 2180,
+      "count": 1,
+      "first": {
+        "date": "2021-02-20",
+        "place": "St. Augustine, FL"
+      },
+      "latest": {
+        "date": "2021-02-20",
+        "place": "St. Augustine, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-02-20",
+          "place": "St. Augustine, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "sandhill-crane",
+      "common": "Sandhill Crane",
+      "scientific": "Antigone canadensis",
+      "rank": 1930,
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Orlando, FL"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Orlando, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Orlando, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "sandwich-tern",
+      "common": "Sandwich Tern",
+      "scientific": "Thalasseus sandvicensis",
+      "rank": 2268,
+      "count": 1,
+      "first": {
+        "date": "2022-06-12",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-06-12",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-06-12",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "scarlet-tanager",
+      "common": "Scarlet Tanager",
+      "scientific": "Piranga olivacea",
+      "rank": 10694,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "semipalmated-plover",
+      "common": "Semipalmated Plover",
+      "scientific": "Charadrius semipalmatus",
+      "rank": 2032,
+      "count": 1,
+      "first": {
+        "date": "2021-05-29",
+        "place": "Miami, FL"
+      },
+      "latest": {
+        "date": "2021-05-29",
+        "place": "Miami, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-29",
+          "place": "Miami, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "semipalmated-sandpiper",
+      "common": "Semipalmated Sandpiper",
+      "scientific": "Calidris pusilla",
+      "rank": 2205,
+      "count": 1,
+      "first": {
+        "date": "2022-06-12",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-06-12",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-06-12",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "snowy-egret",
+      "common": "Snowy Egret",
+      "scientific": "Egretta thula",
+      "rank": 2688,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "song-sparrow",
+      "common": "Song Sparrow",
+      "scientific": "Melospiza melodia",
+      "rank": 10396,
+      "count": 1,
+      "first": {
+        "date": "7/UNK/2021",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "7/UNK/2021",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "7/UNK/2021",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "spot-breasted-oriole",
+      "common": "Spot-breasted Oriole",
+      "scientific": "Icterus pectoralis",
+      "rank": 10508,
+      "count": 1,
+      "first": {
+        "date": "2021-12-17",
+        "place": "Plantation Preserve, FL"
+      },
+      "latest": {
+        "date": "2021-12-17",
+        "place": "Plantation Preserve, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-12-17",
+          "place": "Plantation Preserve, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "summer-tanager",
+      "common": "Summer Tanager",
+      "scientific": "Piranga rubra",
+      "rank": 10692,
+      "count": 1,
+      "first": {
+        "date": "2021-09-11",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-11",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-11",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "swallow-tailed-kite",
+      "common": "Swallow-tailed Kite",
+      "scientific": "Elanoides forficatus",
+      "rank": 2767,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "Orlando, FL"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "Orlando, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "Orlando, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "tennessee-warbler",
+      "common": "Tennessee Warbler",
+      "scientific": "Leiothlypis peregrina",
+      "rank": 10583,
+      "count": 1,
+      "first": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-25",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-25",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "tree-swallow",
+      "common": "Tree Swallow",
+      "scientific": "Tachycineta bicolor",
+      "rank": 7496,
+      "count": 1,
+      "first": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-04",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-04",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "tricolored-heron",
+      "common": "Tricolored Heron",
+      "scientific": "Egretta tricolor",
+      "rank": 2682,
+      "count": 1,
+      "first": {
+        "date": "UK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "tufted-titmouse",
+      "common": "Tufted Titmouse",
+      "scientific": "Baeolophus bicolor",
+      "rank": 7161,
+      "count": 1,
+      "first": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC"
+      },
+      "latest": {
+        "date": "8/UNK/2021",
+        "place": "Horse Shoe, NC",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "8/UNK/2021",
+          "place": "Horse Shoe, NC",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "turkey-vulture",
+      "common": "Turkey Vulture",
+      "scientific": "Cathartes aura",
+      "rank": 2737,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "vermilion-flycatcher",
+      "common": "Vermilion Flycatcher",
+      "scientific": "Pyrocephalus rubinus",
+      "rank": 5526,
+      "count": 1,
+      "first": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2022-02-19",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-02-19",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "white-ibis",
+      "common": "White Ibis",
+      "scientific": "Eudocimus albus",
+      "rank": 2636,
+      "count": 1,
+      "first": {
+        "date": "UNK",
+        "place": "TM"
+      },
+      "latest": {
+        "date": "UNK",
+        "place": "TM",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "UNK",
+          "place": "TM",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "white-breasted-nuthatch",
+      "common": "White-breasted Nuthatch",
+      "scientific": "Sitta carolinensis",
+      "rank": 8650,
+      "count": 1,
+      "first": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL"
+      },
+      "latest": {
+        "date": "2021-07-05",
+        "place": "Chicago, IL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-07-05",
+          "place": "Chicago, IL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "white-eyed-vireo",
+      "common": "White-eyed Vireo",
+      "scientific": "Vireo griseus",
+      "rank": 6604,
+      "count": 1,
+      "first": {
+        "date": "2021-09-11",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-09-11",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-09-11",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "willet",
+      "common": "Willet",
+      "scientific": "Tringa semipalmata",
+      "rank": 2172,
+      "count": 1,
+      "first": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL"
+      },
+      "latest": {
+        "date": "2021-04-25",
+        "place": "St. George Island, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-04-25",
+          "place": "St. George Island, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "wilson-s-snipe",
+      "common": "Wilson's Snipe",
+      "scientific": "Gallinago delicata",
+      "rank": 2150,
+      "count": 1,
+      "first": {
+        "date": "2021-12-03",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2021-12-03",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-12-03",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "wood-duck",
+      "common": "Wood Duck",
+      "scientific": "Aix sponsa",
+      "rank": 158,
+      "count": 1,
+      "first": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL"
+      },
+      "latest": {
+        "date": "2021-06-06",
+        "place": "Corkscrew Sanctuary, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-06-06",
+          "place": "Corkscrew Sanctuary, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "wood-stork",
+      "common": "Wood Stork",
+      "scientific": "Mycteria americana",
+      "rank": 2543,
+      "count": 1,
+      "first": {
+        "date": "2021-02-20",
+        "place": "St. Augustine, FL"
+      },
+      "latest": {
+        "date": "2021-02-20",
+        "place": "St. Augustine, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-02-20",
+          "place": "St. Augustine, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "yellow-billed-cuckoo",
+      "common": "Yellow-billed Cuckoo",
+      "scientific": "Coccyzus americanus",
+      "rank": 1311,
+      "count": 1,
+      "first": {
+        "date": "2022-05-22",
+        "place": "Faulk Drive Landing, FL"
+      },
+      "latest": {
+        "date": "2022-05-22",
+        "place": "Faulk Drive Landing, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2022-05-22",
+          "place": "Faulk Drive Landing, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "yellow-crowned-night-heron",
+      "common": "Yellow-crowned Night Heron",
+      "scientific": "Nyctanassa violacea",
+      "rank": 2669,
+      "count": 1,
+      "first": {
+        "date": "2021-05-29",
+        "place": "Miami, FL"
+      },
+      "latest": {
+        "date": "2021-05-29",
+        "place": "Miami, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-05-29",
+          "place": "Miami, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "yellow-rumped-warbler",
+      "common": "Yellow-rumped Warbler",
+      "scientific": "Setophaga coronata",
+      "rank": 10627,
+      "count": 1,
+      "first": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL"
+      },
+      "latest": {
+        "date": "2021-11-13",
+        "place": "St. Mark's National Wildlife Refuge, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-11-13",
+          "place": "St. Mark's National Wildlife Refuge, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "yellow-throated-warbler",
+      "common": "Yellow-throated Warbler",
+      "scientific": "Setophaga dominica",
+      "rank": 10628,
+      "count": 1,
+      "first": {
+        "date": "2021-10-26",
+        "place": "Chartre Oaks, FL"
+      },
+      "latest": {
+        "date": "2021-10-26",
+        "place": "Chartre Oaks, FL",
+        "photo": null
+      },
+      "latest_photo": null,
+      "sightings": [
+        {
+          "date": "2021-10-26",
+          "place": "Chartre Oaks, FL",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "slug": "american-golden-plover",
+      "common": "American Golden-Plover",
+      "scientific": "Pluvialis dominica",
+      "rank": 2025,
+      "count": 1,
+      "first": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL"
+      },
+      "latest": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/american-golden-plover/1.jpg",
+          "thumb": "/birds/american-golden-plover/1-thumb.jpg",
+          "date": "2022-12-29"
+        }
+      },
+      "latest_photo": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/american-golden-plover/1.jpg",
+          "thumb": "/birds/american-golden-plover/1-thumb.jpg",
+          "date": "2022-12-29"
+        }
+      },
+      "sightings": [
+        {
+          "date": "2022-12-29",
+          "place": "Wakulla County, FL",
+          "photo": {
+            "src": "/birds/american-golden-plover/1.jpg",
+            "thumb": "/birds/american-golden-plover/1-thumb.jpg",
+            "date": "2022-12-29"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "palm-warbler",
+      "common": "Palm Warbler",
+      "scientific": "Setophaga palmarum",
+      "rank": 10624,
+      "count": 1,
+      "first": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL"
+      },
+      "latest": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/palm-warbler/1.jpg",
+          "thumb": "/birds/palm-warbler/1-thumb.jpg",
+          "date": "2022-12-29"
+        }
+      },
+      "latest_photo": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/palm-warbler/1.jpg",
+          "thumb": "/birds/palm-warbler/1-thumb.jpg",
+          "date": "2022-12-29"
+        }
+      },
+      "sightings": [
+        {
+          "date": "2022-12-29",
+          "place": "Wakulla County, FL",
+          "photo": {
+            "src": "/birds/palm-warbler/1.jpg",
+            "thumb": "/birds/palm-warbler/1-thumb.jpg",
+            "date": "2022-12-29"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "swamp-sparrow",
+      "common": "Swamp Sparrow",
+      "scientific": "Melospiza georgiana",
+      "rank": 10398,
+      "count": 1,
+      "first": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL"
+      },
+      "latest": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/swamp-sparrow/1.jpg",
+          "thumb": "/birds/swamp-sparrow/1-thumb.jpg",
+          "date": "2022-12-29"
+        }
+      },
+      "latest_photo": {
+        "date": "2022-12-29",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/swamp-sparrow/1.jpg",
+          "thumb": "/birds/swamp-sparrow/1-thumb.jpg",
+          "date": "2022-12-29"
+        }
+      },
+      "sightings": [
+        {
+          "date": "2022-12-29",
+          "place": "Wakulla County, FL",
+          "photo": {
+            "src": "/birds/swamp-sparrow/1.jpg",
+            "thumb": "/birds/swamp-sparrow/1-thumb.jpg",
+            "date": "2022-12-29"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sanderling",
+      "common": "Sanderling",
+      "scientific": "Calidris alba",
+      "rank": 2195,
+      "count": 1,
+      "first": {
+        "date": "2023-02-04",
+        "place": "Wakulla County, FL"
+      },
+      "latest": {
+        "date": "2023-02-04",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/sanderling/1.jpg",
+          "thumb": "/birds/sanderling/1-thumb.jpg",
+          "date": "2023-02-04"
+        }
+      },
+      "latest_photo": {
+        "date": "2023-02-04",
+        "place": "Wakulla County, FL",
+        "photo": {
+          "src": "/birds/sanderling/1.jpg",
+          "thumb": "/birds/sanderling/1-thumb.jpg",
+          "date": "2023-02-04"
+        }
+      },
+      "sightings": [
+        {
+          "date": "2023-02-04",
+          "place": "Wakulla County, FL",
+          "photo": {
+            "src": "/birds/sanderling/1.jpg",
+            "thumb": "/birds/sanderling/1-thumb.jpg",
+            "date": "2023-02-04"
+          }
+        }
+      ]
     }
   ]
 }
