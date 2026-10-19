@@ -61,6 +61,7 @@ role: "Author"
 license: "MIT"
 stack: ["C++", "Nix"]
 repo: "https://github.com/ewtodd/…"
+lastmod: 2026-10-18                          # drives the "Recently" card on home
 docs: "https://docs.ethanwtodd.com/…/"   # optional
 ```
 
@@ -112,8 +113,9 @@ description: "One sentence, used for meta description and as the listing summary
 ```
 
 `content/posts/example-post.md` is a draft: `hugo server -D` shows it, while
-`nix build` leaves it out. Delete it or copy it as a starting point. RSS is off
-site-wide (`disableKinds` in `hugo.toml`), so posts do not produce a feed.
+`nix build` leaves it out. Delete it or copy it as a starting point. RSS is on
+for `/posts/` (only taxonomy kinds are disabled in `hugo.toml`); the feed is at
+`/posts/index.xml` and the index links it.
 
 ## This repository owns the Doxygen theme
 
@@ -138,7 +140,7 @@ what any project has been updated to. The derivation fails if a page is missed.
 assets/css/main.css     the whole visual system, Kanagawa base16
 assets/js/site.js       progressive enhancement only; the site works without it
 content/                markdown; /devices/ and /posts/ are one file per entry, /cv/ and /docs/ are stubs
-layouts/                baseof, home, section, page, cv, docsindex, devices/, posts/
+layouts/                baseof, home, section, page, research, cv, docsindex, devices/, posts/
 layouts/partials/       nav, footer, head, eyebrow, project-card, device-card, reference, terminal
 layouts/_shortcodes/    terminal
 scripts/cv_import.py    LaTeX + BibTeX → data/cv.json

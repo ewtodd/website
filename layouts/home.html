@@ -2,34 +2,16 @@
 {{- $cv := hugo.Data.cv -}}
 <header class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
-  <div class="wrap hero-grid">
+  <div class="wrap">
     <div class="hero-copy">
       {{ partial "eyebrow.html" (dict "label" (printf "%s · %s" site.Params.role site.Params.affiliation)) }}
-      <h1>{{ site.Title }}</h1>
-      <p class="role">{{ site.Params.description }}</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="{{ "/projects/" | relURL }}">Projects <span class="arrow">→</span></a>
-        <a class="btn" href="{{ "/cv/" | relURL }}">Curriculum vitae</a>
-        <a class="btn" href="{{ site.Params.github }}" rel="noopener">GitHub ↗</a>
-      </div>
-    </div>
-
-    <div class="hero-term reveal">
-      {{ partial "terminal.html" (dict
-          "title" "e-work@e-desktop — analysis"
-          "animate" true
-          "lines" (slice
-            (dict "p" "$" "c" "nix develop github:ewtodd/Analysis-Utilities")
-            (dict "o" "ROOT 6.40 · CUDA 13 · analysis-utilities ready")
-            (dict "p" "$" "c" "root -l fit.cpp+")
-            (dict "o" "unbinned EML fit · 4.1M events")
-            (dict "k" "  GPU doEval ......... 6.2 s")
-            (dict "m" "  # ~2 min on the OpenMP CPU path")
-          )) }}
+      <h1>{{ .Title }}</h1>
+      <p class="role">{{ site.Params.tagline }}</p>
+      <div class="prose hero-intro">{{ .Content }}</div>
     </div>
   </div>
 
-  {{/* A title block across the foot of the sheet, the way a drawing carries
+  {{/* A title block along the foot of the sheet, the way a drawing carries
        its identifying data along the bottom edge. */}}
   <div class="wrap">
     <div class="specstrip">
@@ -43,91 +25,116 @@
       <span><i class="dot" aria-hidden="true"></i>Ann Arbor, MI</span>
       <span class="tail"><a href="https://orcid.org/{{ site.Params.orcid }}" rel="noopener">ORCID {{ site.Params.orcid }}</a></span>
     </div>
-    <a class="scrollcue anno" href="#work" style="display:flex;justify-content:center">Scroll <span aria-hidden="true">▾</span></a>
   </div>
 </header>
 {{ end }}
 
 {{ define "main" }}
-{{- $cv := hugo.Data.cv -}}
-{{- $projects := (where site.RegularPages "Section" "projects").ByWeight -}}
+{{- $research := site.GetPage "/research" -}}
+{{- $projectsPage := site.GetPage "/projects" -}}
+{{- $birds := site.GetPage "/birds" -}}
 
-<section class="section" id="work">
-  <div class="wrap">
-    <div class="withaside">
-      <div>
-        <div class="section-head reveal">
-          {{ partial "eyebrow.html" (dict "idx" "01" "label" "Work") }}
-          <h2>{{ .Title }}</h2>
-        </div>
-        <div class="prose reveal">{{ .Content }}</div>
-      </div>
-
-      {{ with $cv }}
-        {{- $current := slice -}}
-        {{- range .sections -}}
-          {{- if eq .id "research" -}}
-            {{- range .entries -}}
-              {{- if in .dates "Present" -}}{{- $current = $current | append . -}}{{- end -}}
-            {{- end -}}
-          {{- end -}}
-        {{- end -}}
-        {{ with $current }}
-          <aside class="aside reveal">
-            <h2>Currently</h2>
-            <dl class="spec">
-              {{ range . }}
-                <dt>{{ .dates }}</dt>
-                <dd>{{ .title }}<br><span class="muted">{{ .org }}</span></dd>
-              {{ end }}
-            </dl>
-            <div class="links">
-              <a class="btn" href="{{ "/cv/" | relURL }}">Full CV <span class="arrow">→</span></a>
-            </div>
-          </aside>
-        {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-<section class="section" id="projects">
+{{- /* Three links to the main sections. */ -}}
+<section class="section" id="explore">
   <div class="wrap">
     <div class="section-head reveal">
-      {{ partial "eyebrow.html" (dict "idx" "02" "label" "Projects") }}
-      <h2>Software I build and maintain</h2>
-      <p>Analysis libraries for nuclear measurement, an agent harness, and the Nix configuration that keeps it all reproducible.</p>
+      {{ partial "eyebrow.html" (dict "idx" "01" "label" "Explore") }}
     </div>
-    <ul class="cards two">
-      {{ range $i, $p := $projects }}
-        {{ partial "project-card.html" (dict "page" $p "idx" (printf "%02d" (add $i 1)) "delay" (mul $i 70)) }}
-      {{ end }}
+    <ul class="cards three">
+      <li class="reveal">
+        <a class="card ticked" href="{{ $research.RelPermalink }}">
+          <div class="kicker"><span class="anno">01</span></div>
+          <h3>Research</h3>
+          <p>{{ $research.Description }}</p>
+        </a>
+      </li>
+      <li class="reveal">
+        <a class="card ticked" href="{{ $projectsPage.RelPermalink }}">
+          <div class="kicker"><span class="anno">02</span></div>
+          <h3>Projects</h3>
+          <p>{{ $projectsPage.Description }}</p>
+        </a>
+      </li>
+      <li class="reveal">
+        <a class="card ticked" href="{{ $birds.RelPermalink }}">
+          <div class="kicker"><span class="anno">03</span></div>
+          <h3>Birds</h3>
+          <p>{{ $birds.Description }}</p>
+        </a>
+      </li>
     </ul>
   </div>
 </section>
 
-{{ with $cv }}
-  {{- $pubs := slice -}}
-  {{- range .sections -}}
-    {{- if eq .id "publications" -}}{{- $pubs = .references -}}{{- end -}}
+{{- /* Recently: the newest post, the newest lifer, the most recently
+       touched project. Each is omitted if there is nothing to show. */ -}}
+{{- $posts := where site.RegularPages "Section" "posts" -}}
+{{- $posts := where $posts "Draft" false -}}
+{{- $latestPost := first 1 (sort $posts "Date" "desc") -}}
+
+{{- $projects := where site.RegularPages "Section" "projects" -}}
+{{- $latestProj := first 1 (sort $projects "Lastmod" "desc") -}}
+
+{{- $lifer := false -}}
+{{- with hugo.Data.birds -}}
+  {{- $entries := slice -}}
+  {{- range $b := .species -}}
+    {{- $d := printf "%v" $b.first.date -}}
+    {{- $key := "" -}}
+    {{- if findRE `^\d{4}-\d{2}-\d{2}$` $d -}}
+      {{- $key = $d -}}
+    {{- else if findRE `^\d{1,2}/UNK/\d{4}$` $d -}}
+      {{- $key = replaceRE `^(\d{1,2})/UNK/(\d{4})$` `$2-$1-00` $d -}}
+    {{- end -}}
+    {{- $thumb := "" -}}
+    {{- with $b.latest_photo -}}{{- with .photo -}}{{- $thumb = .thumb -}}{{- end -}}{{- end -}}
+    {{- $entries = $entries | append (dict "key" $key "common" $b.common "date" $d "thumb" $thumb) -}}
   {{- end -}}
-  {{ with $pubs }}
-    <section class="section" id="publications">
-      <div class="wrap">
-        <div class="section-head reveal">
-          {{ partial "eyebrow.html" (dict "idx" "03" "label" "Publications") }}
-          <h2>Selected publications</h2>
-          <p>Newest first. The full list, with presentations, teaching and awards,
-             is on the CV.</p>
-        </div>
-        <ol class="refs reveal">
-          {{ range first 4 . }}{{ partial "reference.html" . }}{{ end }}
-        </ol>
-        <div class="btn-row" style="margin-top:2rem">
-          <a class="btn" href="{{ "/cv/#publications" | relURL }}">All {{ len . }} publications <span class="arrow">→</span></a>
-        </div>
-      </div>
-    </section>
-  {{ end }}
+  {{- $sorted := sort $entries "key" "desc" -}}
+  {{- if $sorted -}}{{- $lifer = index $sorted 0 -}}{{- end -}}
+{{- end -}}
+
+{{- if or $latestPost $lifer $latestProj -}}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      {{ partial "eyebrow.html" (dict "idx" "02" "label" "Recently") }}
+      <h2>Recently</h2>
+    </div>
+    <ul class="cards three">
+      {{ with $latestPost }}
+        {{- $post := index . 0 -}}
+        <li class="reveal">
+          <a class="card ticked" href="{{ $post.RelPermalink }}">
+            <div class="kicker"><span class="chip on">Post</span></div>
+            <h3>{{ $post.Title }}</h3>
+            <p>{{ $post.Description | default $post.Summary | plainify | truncate 150 }}</p>
+            <div class="tail"><time class="recent-date" datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "2006-01-02" }} · {{ $post.ReadingTime }} min</time></div>
+          </a>
+        </li>
+      {{ end }}
+      {{ with $lifer }}
+        <li class="reveal">
+          <a class="card ticked" href="{{ "/birds/" | relURL }}">
+            <div class="kicker"><span class="chip on">Lifer</span></div>
+            <h3>{{ .common }}</h3>
+            <p>First seen {{ .date }}.</p>
+            {{ with .thumb }}<img class="recent-thumb" src="{{ . }}" alt="{{ $lifer.common }}">{{ end }}
+          </a>
+        </li>
+      {{ end }}
+      {{ with $latestProj }}
+        {{- $proj := index . 0 -}}
+        <li class="reveal">
+          <a class="card ticked" href="{{ $proj.RelPermalink }}">
+            <div class="kicker"><span class="chip on">Project</span></div>
+            <h3>{{ $proj.Title }}</h3>
+            <p>Most recently updated.</p>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
 {{ end }}
 {{ end }}

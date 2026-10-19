@@ -9,6 +9,7 @@ license: "MIT"
 stack: ["Python", "Textual", "Nix", "uv2nix", "vLLM"]
 host: "e-desktop, against local models on son-of-anton"
 repo: "https://github.com/ewtodd/son-of-anton"
+lastmod: 2026-06-12
 ---
 <!---->
 An always-on agent with two modes: a normal agent loop, and a physics research

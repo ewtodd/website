@@ -1,0 +1,99 @@
+{{ define "hero" }}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" "Research") }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+{{- $cv := hugo.Data.cv -}}
+<section class="section">
+  <div class="wrap">
+    {{ with .Content }}<div class="prose reveal">{{ . }}</div>{{ end }}
+  </div>
+</section>
+
+{{- if not $cv -}}
+<section class="section">
+  <div class="wrap">
+    <div class="prose reveal">
+      <p>The groups, publications and talks on this page are generated from the CV&rsquo;s LaTeX source, and that source was not present when this copy of the site was built. The current version is always in the repository.</p>
+      <p><a href="{{ site.Params.cvRepo }}" rel="noopener">github.com/ewtodd/Curriculum-Vitae</a></p>
+    </div>
+  </div>
+</section>
+{{- else -}}
+
+  {{- $groups := slice -}}
+  {{- range $s := $cv.sections -}}
+    {{- if eq $s.id "research" -}}
+      {{- range $e := $s.entries -}}
+        {{- if in $e.dates "Present" -}}{{- $groups = $groups | append $e -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{ with $groups }}
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          {{ partial "eyebrow.html" (dict "idx" "01" "label" "Groups") }}
+          <h2>Groups</h2>
+        </div>
+        <ul class="cards two">
+          {{ range . }}
+            <li class="reveal">
+              <div class="card">
+                <div class="kicker"><span class="anno">{{ .dates }}</span></div>
+                <h3>{{ .org | safeHTML }}</h3>
+                {{ with .location }}<p class="muted">{{ . }}</p>{{ end }}
+                {{ range .projects }}
+                  <div>
+                    <p style="margin-bottom:.6rem;color:var(--base06)">{{ .title | safeHTML }}</p>
+                    <ul style="margin:0;padding-left:1.1rem;color:var(--dim);font-size:.9rem">
+                      {{ range .bullets }}<li style="margin:.3rem 0">{{ . | safeHTML }}</li>{{ end }}
+                    </ul>
+                  </div>
+                {{ end }}
+              </div>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+  {{ end }}
+
+  {{- $pubs := slice -}}
+  {{- range $s := $cv.sections -}}{{- if eq $s.id "publications" -}}{{- $pubs = $s.references -}}{{- end -}}{{- end -}}
+  {{ with $pubs }}
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          {{ partial "eyebrow.html" (dict "idx" "02" "label" "Publications") }}
+          <h2>Publications</h2>
+        </div>
+        <ol class="refs reveal">
+          {{ range . }}{{ partial "reference.html" . }}{{ end }}
+        </ol>
+      </div>
+    </section>
+  {{ end }}
+
+  {{- $talks := slice -}}
+  {{- range $s := $cv.sections -}}{{- if eq $s.id "presentations" -}}{{- $talks = $s.references -}}{{- end -}}{{- end -}}
+  {{ with $talks }}
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          {{ partial "eyebrow.html" (dict "idx" "03" "label" "Presentations") }}
+          <h2>Talks and presentations</h2>
+        </div>
+        <ol class="refs reveal">
+          {{ range . }}{{ partial "reference.html" . }}{{ end }}
+        </ol>
+      </div>
+    </section>
+  {{ end }}
+
+{{- end -}}
+{{ end }}

@@ -7,12 +7,13 @@ enableRobotsTXT = true
 # own outright, and this keeps the site buildable with nothing but the `hugo`
 # binary already in the dev shell.
 
-# Nothing here is a stream of posts, so the feed and the empty taxonomy pages
-# would only be dead URLs.
-disableKinds = ["taxonomy", "term", "rss"]
+# Taxonomy pages are not used. RSS is on for the posts feed and the home page.
+disableKinds = ["taxonomy", "term"]
 
 [params]
 description = "Nuclear measurement, reproducible analysis, and the software that goes with it."
+# One line for the home hero.
+tagline = "Physicist working on nuclear measurement at Michigan and Argonne. I also write open-source software, run a homelab, and photograph birds."
 role = "Ph.D. candidate in physics"
 affiliation = "University of Michigan"
 group = "Applied Nuclear Science Group"
@@ -41,19 +42,24 @@ startLevel = 2
 endLevel = 3
 
 [[menu.main]]
-name = "Projects"
-url = "/projects/"
+name = "Research"
+url = "/research/"
 weight = 10
 
 [[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 15
+name = "Projects"
+url = "/projects/"
+weight = 12
 
 [[menu.main]]
 name = "Birds"
 url = "/birds/"
-weight = 18
+weight = 14
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 16
 
 [[menu.main]]
 name = "CV"

@@ -8,6 +8,7 @@ role: "Author"
 license: "MIT"
 stack: ["C++", "ROOT", "CUDA", "TOML", "Nix", "Python"]
 repo: "https://github.com/ewtodd/MUSIC"
+lastmod: 2026-04-21
 docs: "https://docs.ethanwtodd.com/music/"
 docsKind: "API reference"
 ---

@@ -397,6 +397,7 @@ main { display: block; }
 .cards { display: grid; gap: 1rem; list-style: none; padding: 0; margin: 0; }
 @media (min-width: 52rem) {
     .cards.two { grid-template-columns: 1fr 1fr; }
+    .cards.three { grid-template-columns: repeat(3, 1fr); }
 }
 
 .card {
@@ -449,6 +450,11 @@ main { display: block; }
     color: var(--faint);
 }
 .chip.on { color: var(--tick); border-color: rgba(106, 149, 137, .4); }
+
+/* The "Recently" strip on the home page: a photo inside a card, and the
+   mono date at the card's foot. */
+.recent-thumb { display: block; margin-top: .85rem; width: 100%; height: 10rem; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line-soft); }
+.card .recent-date { font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; color: var(--tick); }
 
 /* ======================================================================
    7. Spec tables
@@ -888,6 +894,7 @@ td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums;
 }
 .postlist a:hover .post-title { color: var(--accent); }
 .postlist .post-summary { color: var(--dim); font-size: .93rem; line-height: 1.6; }
+.postlist .post-meta { color: var(--faint); font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; }
 @media (max-width: 34rem) {
     .postlist a { grid-template-columns: 1fr; gap: .2rem; }
     .postlist .post-date { padding-top: 0; }

@@ -3,6 +3,9 @@
   {{ partial "eyebrow.html" (dict "label" (printf "%d posts" (len .Pages))) }}
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+  <div class="btn-row">
+    <a class="btn" href="{{ "/posts/index.xml" | relURL }}">RSS feed <span class="arrow">→</span></a>
+  </div>
 </div></header>
 {{ end }}
 
@@ -19,6 +22,7 @@
               <span class="post-text">
                 <span class="post-title">{{ .Title }}</span>
                 <span class="post-summary">{{ .Description | default .Summary | plainify | truncate 180 }}</span>
+                <span class="post-meta">{{ .ReadingTime }} min read</span>
               </span>
             </a>
           </li>

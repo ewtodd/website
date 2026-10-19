@@ -8,6 +8,7 @@ role: "Author"
 license: "MIT"
 stack: ["C++", "ROOT", "CUDA", "RooFit", "Nix", "CMake"]
 repo: "https://github.com/ewtodd/Analysis-Utilities"
+lastmod: 2026-03-15
 docs: "https://docs.ethanwtodd.com/analysis-utilities/"
 docsKind: "API reference"
 ---

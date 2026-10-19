@@ -9,6 +9,7 @@ license: "MIT"
 stack: ["Nix", "NixOS", "Colmena", "agenix", "Caddy"]
 host: "10 hosts, x86_64 and aarch64"
 repo: "https://github.com/ewtodd/NixOS"
+lastmod: 2026-07-08
 devices: "/devices/"
 ---
 <!---->
