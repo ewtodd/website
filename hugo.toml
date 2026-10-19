@@ -42,11 +42,6 @@ startLevel = 2
 endLevel = 3
 
 [[menu.main]]
-name = "Research"
-url = "/research/"
-weight = 10
-
-[[menu.main]]
 name = "Projects"
 url = "/projects/"
 weight = 12

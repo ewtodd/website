@@ -140,7 +140,7 @@ what any project has been updated to. The derivation fails if a page is missed.
 assets/css/main.css     the whole visual system, Kanagawa base16
 assets/js/site.js       progressive enhancement only; the site works without it
 content/                markdown; /devices/ and /posts/ are one file per entry, /cv/ and /docs/ are stubs
-layouts/                baseof, home, section, page, research, cv, docsindex, devices/, posts/
+layouts/                baseof, home, section, page, cv, docsindex, devices/, posts/
 layouts/partials/       nav, footer, head, eyebrow, project-card, device-card, reference, terminal
 layouts/_shortcodes/    terminal
 scripts/cv_import.py    LaTeX + BibTeX → data/cv.json

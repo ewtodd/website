@@ -30,22 +30,33 @@
 {{ end }}
 
 {{ define "main" }}
-{{- $research := site.GetPage "/research" -}}
 {{- $projectsPage := site.GetPage "/projects" -}}
 {{- $birds := site.GetPage "/birds" -}}
+
+{{- /* The research page was redundant with the CV and is gone; its one
+     original sentence, the dissertation paragraph, lives here. */ -}}
+<section class="section" id="research">
+  <div class="wrap">
+    <div class="section-head reveal">
+      {{ partial "eyebrow.html" (dict "idx" "01" "label" "Research") }}
+      <h2>Research</h2>
+    </div>
+    <div class="prose reveal">My dissertation research focuses primarily on two nuclear data measurements with next-generation applications: a <sup>72</sup>Ge(n,γ)<sup>73m</sup>Ge low energy gamma ray with implications for practical neutrino detection, and a <sup>37</sup>Cl(α, n)<sup>40</sup>K cross section relevant for molten salt reactor neutronics.</div>
+  </div>
+</section>
 
 {{- /* Three links to the main sections. */ -}}
 <section class="section" id="explore">
   <div class="wrap">
     <div class="section-head reveal">
-      {{ partial "eyebrow.html" (dict "idx" "01" "label" "Explore") }}
+      {{ partial "eyebrow.html" (dict "idx" "02" "label" "Explore") }}
     </div>
     <ul class="cards three">
       <li class="reveal">
-        <a class="card ticked" href="{{ $research.RelPermalink }}">
+        <a class="card ticked" href="{{ "/cv/" | relURL }}">
           <div class="kicker"><span class="anno">01</span></div>
           <h3>Research</h3>
-          <p>{{ $research.Description }}</p>
+          <p>Nuclear data measurements with next-generation applications, and the groups it is done in.</p>
         </a>
       </li>
       <li class="reveal">
@@ -98,7 +109,7 @@
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal">
-      {{ partial "eyebrow.html" (dict "idx" "02" "label" "Recently") }}
+      {{ partial "eyebrow.html" (dict "idx" "03" "label" "Recently") }}
       <h2>Recently</h2>
     </div>
     <ul class="cards three">
