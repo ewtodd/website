@@ -69,38 +69,6 @@ A project joins `docs.ethanwtodd.com` by gaining a `docs` URL here **and** an
 entry in the flake's `docs` derivation for its generated output. Nothing in the
 system configuration changes.
 
-## Adding a device
-
-Each machine in the NixOS configuration gets a page in `content/devices/`. The
-front matter is the spec sheet, the body is the prose, and a `timeline` list
-renders under the prose:
-
-```yaml
-title: "name"
-description: "One sentence, used for meta description and as the page lede."
-summary: "Optional, replaces description on the index card."
-weight: 10
-machine: "Server"        # not `type` — Hugo reads that as the page type
-status: "Active"
-role: "What the machine is for"
-cpu: "…"
-gpu: "…"
-memory: "…"
-storage: "…"
-firmware: "…"
-network: "10.0.0.x"
-os: "NixOS unstable"
-config: "https://github.com/ewtodd/NixOS/tree/main/hosts/name"
-timeline:
-  - date: "2026-01"
-    event: "…"
-```
-
-Missing keys are left out of the spec sheet; `aka` adds a nickname under the
-title. `layouts/devices/page.html` and `layouts/partials/device-card.html`
-render it all, and the NixOS project page links to the index through its
-`devices` key.
-
 ## Writing a post
 
 One markdown file in `content/posts/` per post. `/posts/` lists them by date,
@@ -139,9 +107,9 @@ what any project has been updated to. The derivation fails if a page is missed.
 ```
 assets/css/main.css     the whole visual system, Kanagawa base16
 assets/js/site.js       progressive enhancement only; the site works without it
-content/                markdown; /devices/ and /posts/ are one file per entry, /cv/ and /docs/ are stubs
-layouts/                baseof, home, section, page, cv, docsindex, devices/, posts/
-layouts/partials/       nav, footer, head, eyebrow, project-card, device-card, reference, terminal
+content/                markdown; /posts/ is one file per entry, /cv/ and /docs/ are stubs
+layouts/                baseof, home, section, page, cv, docsindex, posts/
+layouts/partials/       nav, footer, head, eyebrow, project-card, reference, terminal
 layouts/_shortcodes/    terminal
 scripts/cv_import.py    LaTeX + BibTeX → data/cv.json
 ```

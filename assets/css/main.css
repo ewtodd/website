@@ -654,15 +654,6 @@ td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums;
 .pagehead .lede { margin: 0; }
 .pagehead .btn-row { margin-top: 1.75rem; }
 
-/* A device alias under the page title, e.g. "aka Yeti". */
-.device-aka {
-    margin: 0 0 .4rem;
-    font-family: var(--mono);
-    font-size: .78rem;
-    letter-spacing: .05em;
-    color: var(--faint);
-}
-
 .backlink {
     display: inline-flex;
     align-items: center;
