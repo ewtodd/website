@@ -40,6 +40,7 @@
           name = "cv-import";
           runtimeInputs = [ pkgs.python3 ];
           text = ''
+            nix flake update curriculum-vitae
             python3 "''${SITE_ROOT:-.}/scripts/cv_import.py" "$@"
           '';
         };

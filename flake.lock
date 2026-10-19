@@ -10,7 +10,7 @@
         "narHash": "sha256-LIKh44WEGXSAWJuCGFu7vv/fuaAUYX8NA0g57v3cEeg=",
         "owner": "ewtodd",
         "repo": "Analysis-Utilities",
-        "rev": "a030519fea84914ecd5439d629f42aedf3424fa5",
+        "rev": "a12a85b77b7864b0e047b0a425f9e4e3ccb068e4",
         "type": "github"
       },
       "original": {
@@ -22,11 +22,11 @@
     "curriculum-vitae": {
       "flake": false,
       "locked": {
-        "lastModified": 1790901314,
-        "narHash": "sha256-NoyWR5Q78AgHq0+plUTSMDIsYyTfR0l6E+calQhhF1o=",
+        "lastModified": 1792099068,
+        "narHash": "sha256-AvLWV+2lAh4ohdPtNb7OFuIW2TG8Sii4n62lJ/hYI18=",
         "owner": "ewtodd",
         "repo": "Curriculum-Vitae",
-        "rev": "7b49da7a642fcedfc0e72271fedb34706953be1a",
+        "rev": "62d89b2c0837642fa3bca292926923b41111323c",
         "type": "github"
       },
       "original": {
@@ -119,11 +119,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1790898469,
-        "narHash": "sha256-f5Aex6oCh35HkogASIaY3i1cHEmBcxcstTUZuXWteC4=",
+        "lastModified": 1791480142,
+        "narHash": "sha256-3a4H8BHN0DctNpPHzZJ+HX3gHmOev8WeL8c41QdaODo=",
         "owner": "ewtodd",
         "repo": "MUSIC",
-        "rev": "017043be562f78d751bdc690f9b5f0b7f97045f8",
+        "rev": "498a417d3ea18606ca12913fa4b62394428cfcd1",
         "type": "github"
       },
       "original": {
@@ -166,11 +166,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1790822859,
-        "narHash": "sha256-69xHQhAeMAD2wDXO7T2pcOZIF9Sga2W+JkmY2a11Ops=",
+        "lastModified": 1791456040,
+        "narHash": "sha256-H83yz/do+hjOO0uujHyH8RgtIQP2v7Mw+cLwcZK/xKc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "c59305bab2065cfecc4944690d9eedbb56f3a9fa",
+        "rev": "e7439b6b14ad3cc35d05608ebca9bce01a25f5f8",
         "type": "github"
       },
       "original": {
@@ -257,11 +257,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1790019017,
-        "narHash": "sha256-s71oE55Qw3o+TBp8lEYDalpR+tb0rv/YoUPbozfC6ZQ=",
+        "lastModified": 1791388822,
+        "narHash": "sha256-ilBDHiCuRpULJX9TBBQx+cGBqlqEr1HjtUYYHXn9+qk=",
         "owner": "ewtodd",
         "repo": "talys-nix",
-        "rev": "dd5344c4c614e909893d0ae3b3736daafb9cfab0",
+        "rev": "a7f8ba3a78557104c3ae41083608b8765173ffad",
         "type": "github"
       },
       "original": {
