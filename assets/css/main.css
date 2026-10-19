@@ -245,6 +245,18 @@ hr {
 
 @media (max-width: 640px) {
     .nav .ext, .nav .sep { display: none; }
+    /* Five links plus the brand do not fit one 390 px line, so the bar wraps
+       to two rows rather than running off the edge. */
+    .nav .wrap {
+        flex-wrap: wrap;
+        height: auto;
+        min-height: var(--nav-h);
+        gap: .45rem 1.1rem;
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+    }
+    /* Anchored headings must clear the taller, wrapped bar. */
+    html { scroll-padding-top: calc(var(--nav-h) + 3.5rem); }
 }
 
 /* ======================================================================
