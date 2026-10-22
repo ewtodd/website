@@ -1,0 +1,55 @@
+{
+  "generated": "2026-10-21T22:45:33-05:00",
+  "photos": [
+    {
+      "species": "Indigo Bunting",
+      "scientific": "",
+      "date": "2025-05-26",
+      "place": "Washtenaw County, MI",
+      "file": "/birds/gallery/2025-05-26-NICHOLS-ARBORETUM__DSC8623.jpg",
+      "thumb": "/birds/gallery/2025-05-26-NICHOLS-ARBORETUM__DSC8623-thumb.jpg",
+      "width": 2315,
+      "height": 1852
+    },
+    {
+      "species": "Eastern Screech-Owl",
+      "scientific": "",
+      "date": "2025-05-26",
+      "place": "Washtenaw County, MI",
+      "file": "/birds/gallery/2025-05-26-NICHOLS-ARBORETUM__DSC8806.jpg",
+      "thumb": "/birds/gallery/2025-05-26-NICHOLS-ARBORETUM__DSC8806-thumb.jpg",
+      "width": 2400,
+      "height": 2100
+    },
+    {
+      "species": "Baltimore Oriole",
+      "scientific": "",
+      "date": "2025-05-26",
+      "place": "Washtenaw County, MI",
+      "file": "/birds/gallery/2025-05-26-NICHOLS-ARBORETUM__DSC8638.jpg",
+      "thumb": "/birds/gallery/2025-05-26-NICHOLS-ARBORETUM__DSC8638-thumb.jpg",
+      "width": 2400,
+      "height": 1492
+    },
+    {
+      "species": "Little Blue Heron",
+      "scientific": "Egretta caerulea",
+      "date": "2021-12-03",
+      "place": "Leon County, FL",
+      "file": "/birds/gallery/2021-TALLAHASSEE--2021-12-03-FAULK-DR-LANDING__DSC3144.jpg",
+      "thumb": "/birds/gallery/2021-TALLAHASSEE--2021-12-03-FAULK-DR-LANDING__DSC3144-thumb.jpg",
+      "width": 1198,
+      "height": 1338
+    },
+    {
+      "species": "Greater Yellowlegs",
+      "scientific": "",
+      "date": "2021-12-03",
+      "place": "Leon County, FL",
+      "file": "/birds/gallery/2021-TALLAHASSEE--2021-12-03-FAULK-DR-LANDING__DSC3121.jpg",
+      "thumb": "/birds/gallery/2021-TALLAHASSEE--2021-12-03-FAULK-DR-LANDING__DSC3121-thumb.jpg",
+      "width": 1946,
+      "height": 2096
+    }
+  ]
+}

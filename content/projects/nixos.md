@@ -1,22 +1,22 @@
 ---
 title: "NixOS"
-description: "One flake describing ten (for now) machines — router, bastion, storage, inference hosts, workstations and a kiosk — deployed with Colmena."
-summary: "One flake describing ten machines: router, bastion, storage, inference hosts, workstations and a kiosk, all deployed from a single build host."
+description: "One flake describing nine machines — router, bastion, storage, an inference host, workstations and a kiosk — deployed with Colmena."
+summary: "One flake describing nine machines: router, bastion, storage, an inference host, workstations and a kiosk, all deployed from a single build host."
 weight: 40
 status: "Active"
 role: "Author"
 license: "MIT"
 stack: ["Nix", "NixOS", "Colmena", "agenix", "Caddy"]
-host: "10 hosts, x86_64 and aarch64"
+host: "9 hosts, all x86_64"
 repo: "https://github.com/ewtodd/NixOS"
 lastmod: 2026-07-08
 ---
 <!---->
 The configuration behind everything else on this site, including the machine
 serving this page.
-Ten hosts described by one flake: a router, an SSH bastion, a
-storage server, two inference machines, a model-router host, four workstations
-and a living-room kiosk.
+Nine hosts described by one flake: a router, an SSH bastion, a
+storage server, an inference host, four workstations and a
+living-room kiosk.
 <!---->
 ## How it is organised
 <!---->
@@ -35,10 +35,10 @@ profile rather than repeated per machine.
 <!---->
 {{< terminal title="ewtodd@e-desktop — colmena" >}}
 $ colmena apply --on @server
-# build on e-desktop, push closures to the five servers
+# build on e-desktop, push closures to the four servers
 $ nrs 
 # rebuild the workstation in front of me
-10 hosts · 1 build host · 0 servers compiling
+9 hosts · 1 build host · 0 servers compiling
 
 {{< /terminal >}}
 <!---->
@@ -59,10 +59,12 @@ every other host is configured against it. That is what makes a CUDA-overlaid
 ROOT build practical: it is compiled once, on the machine with the GPU, and
 fetched everywhere else.
 <!---->
-**Local inference.** Two engines on a dual-GPU host with a tensor-parallel
-served model and a long-context vision model beside it, an aarch64 host running
-the model router, a metasearch instance, and a gateway that aggregates the tool
-servers. This is what [son-of-anton]({{< relref "son-of-anton" >}}) runs against.
+**Local inference.** One inference host, dual-GPU, serving one mode at a
+time: DeepSeek-V4-Flash across both GPUs, or a tensor-parallel Qwen3.8-27B
+with a vision model beside it. The bastion hosts the AI front: a gateway
+that routes the models and aggregates the tool servers, llama.cpp, a
+metasearch instance and Open WebUI. This is what
+[son-of-anton]({{< relref "son-of-anton" >}}) runs against.
 <!---->
 **The unglamorous half.** AdGuard and DNS, dynamic DNS for the apex and its
 subdomains, Prometheus and Grafana, a ZFS pool with a Borg backup server,

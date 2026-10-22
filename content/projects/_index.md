@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "Analysis libraries for nuclear measurement, an agent harness, and the Nix configuration that keeps it all reproducible."
+description: "Some of my open-source work. Professional, personal, and a mix!"
 ---

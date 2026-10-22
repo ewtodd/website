@@ -1,0 +1,49 @@
+{{ define "hero" }}
+{{- $gallery := site.Data.gallery -}}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" "Finished photos") }}
+  <h1>Bird Gallery</h1>
+  <p class="lede">Edited, finished photos from the archive - the keeper frames, newest first.</p>
+  {{ with $gallery }}
+  <p class="bird-totals"><span>{{ len .photos }} photos</span></p>
+  {{ end }}
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+{{- $gallery := site.Data.gallery -}}
+<section class="section"><div class="wrap">
+  {{ with .Content }}<div class="prose" style="margin-bottom:1.5rem">{{ . }}</div>{{ end }}
+
+  {{ if not $gallery }}
+    <p class="bird-hint">The finished-photo gallery data was not available when this copy of the site was built.</p>
+  {{ else if not $gallery.photos }}
+    <div class="gallery-empty">No finished photos yet. Keepers marked five stars in darktable and confirmed on the lifelist land here.</div>
+  {{ else }}
+    <div class="gallery-grid">
+      {{ range $i, $p := $gallery.photos }}
+      <button class="gal-item" type="button" data-index="{{ $i }}"
+              data-src="{{ $p.file }}"
+              data-cap="{{ $p.species }} · {{ $p.date }} · {{ $p.place }}">
+        <img src="{{ $p.thumb }}" alt="{{ $p.species }}, {{ $p.date }} &mdash; {{ $p.place }}" loading="lazy">
+        <span class="gal-cap">{{ $p.species }} <em>{{ $p.scientific }}</em></span>
+      </button>
+      {{ end }}
+    </div>
+
+    <div class="gallery-lightbox" hidden>
+      <button class="lb-close" type="button" aria-label="Close">×</button>
+      <button class="lb-prev" type="button" aria-label="Previous photo">‹</button>
+      <figure class="lb-fig">
+        <img class="lb-img" src="" alt="">
+        <figcaption class="lb-cap"></figcaption>
+      </figure>
+      <button class="lb-next" type="button" aria-label="Next photo">›</button>
+    </div>
+
+    {{ with resources.Get "js/gallery.js" | minify | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+    {{ end }}
+  {{ end }}
+</div></section>
+{{ end }}

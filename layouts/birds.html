@@ -3,9 +3,9 @@
 <header class="pagehead"><div class="wrap">
   {{ partial "eyebrow.html" (dict "label" "Public lifelist") }}
   <h1>Birds</h1>
-  <p class="lede">What the archive has confirmed, kept in taxonomic order. Every
-    entry is a species seen and verified; photos are the clearest frames from
-    distinct encounters.</p>
+  <p class="lede">What the archive has confirmed, kept in alphabetical order.
+    Every entry is a species seen and verified; photos are the clearest frames
+    from distinct encounters.</p>
   {{ with $birds }}
   <p class="bird-totals">
     <span>{{ .species_count }} species</span>
@@ -30,22 +30,33 @@
 
       <div class="bird-tools">
         <div class="sort" role="group" aria-label="Sort the lifelist">
-          <button type="button" class="sort-btn on" data-sort="taxon" aria-pressed="true">Taxonomic order</button>
-          <button type="button" class="sort-btn" data-sort="date" aria-pressed="false">By first date</button>
+          <button type="button" class="sort-btn on" data-sort="alpha" aria-pressed="true">Alphabetical</button>
+          <button type="button" class="sort-btn" data-sort="taxon" aria-pressed="false">Taxonomic</button>
+          <button type="button" class="sort-btn" data-sort="date" aria-pressed="false">First seen</button>
         </div>
         <span class="bird-hint">select a row with a photo to see the frames</span>
       </div>
+      <p class="bird-hint bird-legend">UNK = unknown &middot; TM = too many (seen all the time, but not any less special!)</p>
 
       <div class="birds">
-        {{ range $s := $birds.species }}
+        {{/* alphabetical, case- and punctuation-insensitive, matching the JS
+            comparator. The key is the normalized name plus the raw name, so
+            any (never occurring) tie breaks by the raw name. */}}
+        {{- $keyed := slice }}
+        {{- range $s := $birds.species }}
+          {{- $keyed = $keyed | append (dict "key" (printf "%s %s" (replaceRE "[^a-z0-9]" "" (lower $s.common)) $s.common) "sp" $s) }}
+        {{- end }}
+        {{ range $k := (sort $keyed "key") }}
+        {{- $s := $k.sp }}
         {{- $rank := 999999 }}{{ with $s.rank }}{{ $rank = . }}{{ end -}}
         {{- $date := "9999-12-31" }}{{ with $s.first }}{{ with .date }}{{ $date = . }}{{ end }}{{ end -}}
         <article class="bird" data-rank="{{ $rank }}"
                  data-date="{{ $date }}"
-                 data-slug="{{ $s.slug }}">
+                 data-slug="{{ $s.slug }}"
+                 data-name="{{ $s.common }}">
           <button class="bird-head" type="button" aria-expanded="false"
                   {{ if not $s.sightings }}disabled{{ end }}>
-            {{ with $s.latest_photo }}<img class="bird-head-thumb" src="{{ .photo.thumb }}" alt="" loading="lazy">{{ end }}
+            {{ with $s.latest_photo }}<img class="bird-head-thumb" src="{{ .photo.thumb }}" data-src="{{ .photo.src }}" alt="" loading="lazy" tabindex="0" aria-label="Open photos of {{ $s.common }}" title="Open photos of {{ $s.common }}">{{ end }}
             <span class="bird-title">
               <span class="bird-name">{{ $s.common }}</span>
               <span class="bird-sci"><em>{{ $s.scientific }}</em></span>

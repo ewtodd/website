@@ -1,0 +1,47 @@
+{{ define "hero" }}
+{{- $birds := site.Data.birds -}}
+{{- $gallery := site.Data.gallery -}}
+<header class="pagehead"><div class="wrap">
+  {{ partial "eyebrow.html" (dict "label" "Birds") }}
+  <h1>Birds</h1>
+  <p class="lede">Species confirmed from the archive, and the finished photos that got them there.</p>
+</div></header>
+{{ end }}
+
+{{ define "main" }}
+{{- $birds := site.Data.birds -}}
+{{- $gallery := site.Data.gallery -}}
+<section class="section"><div class="wrap">
+  {{ with .Content }}<div class="prose" style="margin-bottom:1.5rem">{{ . }}</div>{{ end }}
+
+  <ul class="cards two">
+    <li>
+      <a class="card" href="{{ "/birds/lifelist/" | relURL }}">
+        <span class="kicker"><span class="chips"><span class="chip">lifelist</span></span></span>
+        <h3>Lifelist</h3>
+        <p>Every confirmed species, its first-seen date and place, and the clearest frame from each encounter.</p>
+        {{- with $birds }}
+        {{- $newest := dict "date" "0000-00-00" "common" "" }}
+        {{- range $s := .species }}
+          {{- $d := "0000-00-00" }}{{ with $s.first }}{{ with .date }}{{ if ne . "UNK" }}{{ $d = . }}{{ end }}{{ end }}{{ end }}
+          {{- if gt $d $newest.date }}{{ $newest = merge $newest (dict "date" $d "common" $s.common "photo" $s.latest_photo) }}{{ end }}
+        {{- end }}
+        <span class="recent-thumb">{{ with $newest.photo }}{{ with .photo }}<img src="{{ .thumb }}" alt="Latest lifer: {{ $newest.common }}" loading="lazy">{{ end }}{{ end }}</span>
+        <span class="tail"><span class="recent-date">{{ .species_count }} species &middot; latest lifer {{ $newest.common }}</span></span>
+        {{- end }}
+      </a>
+    </li>
+    <li>
+      <a class="card" href="{{ "/birds/gallery/" | relURL }}">
+        <span class="kicker"><span class="chips"><span class="chip">finished photos</span></span></span>
+        <h3>Gallery</h3>
+        <p>Edited, finished photos from the archive - the keeper frames, newest first.</p>
+        {{- with $gallery }}
+        <span class="recent-thumb">{{ with index .photos 0 }}<img src="{{ .thumb }}" alt="{{ .species }}, {{ .date }} &mdash; {{ .place }}" loading="lazy">{{ end }}</span>
+        <span class="tail"><span class="recent-date">{{ len .photos }} photos{{ with index .photos 0 }} &middot; latest {{ .species }} {{ .date }}{{ end }}</span></span>
+        {{- end }}
+      </a>
+    </li>
+  </ul>
+</div></section>
+{{ end }}

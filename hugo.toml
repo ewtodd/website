@@ -12,8 +12,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
 description = "Nuclear measurement, reproducible analysis, and the software that goes with it."
-# One line for the home hero.
-tagline = "Physicist working on nuclear measurement at Michigan and Argonne. I also write open-source software, run a homelab, and photograph birds."
+tagline = "Physicist working on nuclear measurement at Michigan and Argonne. Fan of free and open-source software, homelabber, and birder."
 role = "Ph.D. candidate in physics"
 affiliation = "University of Michigan"
 group = "Applied Nuclear Science Group"
