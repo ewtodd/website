@@ -26,7 +26,7 @@
           {{- $d := "0000-00-00" }}{{ with $s.first }}{{ with .date }}{{ if ne . "UNK" }}{{ $d = . }}{{ end }}{{ end }}{{ end }}
           {{- if gt $d $newest.date }}{{ $newest = merge $newest (dict "date" $d "common" $s.common "photo" $s.latest_photo) }}{{ end }}
         {{- end }}
-        <span class="recent-thumb">{{ with $newest.photo }}{{ with .photo }}<img src="{{ .thumb }}" alt="Latest lifer: {{ $newest.common }}" loading="lazy">{{ end }}{{ end }}</span>
+        {{ with $newest.photo }}{{ with .photo }}<img class="recent-thumb" src="{{ .thumb }}" alt="Latest lifer: {{ $newest.common }}" loading="lazy">{{ end }}{{ end }}
         <span class="tail"><span class="recent-date">{{ .species_count }} species &middot; latest lifer {{ $newest.common }}</span></span>
         {{- end }}
       </a>
@@ -37,7 +37,7 @@
         <h3>Gallery</h3>
         <p>Edited, finished photos from the archive - the keeper frames, newest first.</p>
         {{- with $gallery }}
-        <span class="recent-thumb">{{ with index .photos 0 }}<img src="{{ .thumb }}" alt="{{ .species }}, {{ .date }} &mdash; {{ .place }}" loading="lazy">{{ end }}</span>
+        {{ with index .photos 0 }}<img class="recent-thumb" src="{{ .thumb }}" alt="{{ .species }}, {{ .date }} &mdash; {{ .place }}" loading="lazy">{{ end }}
         <span class="tail"><span class="recent-date">{{ len .photos }} photos{{ with index .photos 0 }} &middot; latest {{ .species }} {{ .date }}{{ end }}</span></span>
         {{- end }}
       </a>

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T23:36:54-05:00",
+  "generated": "2026-10-22T14:37:27-05:00",
   "species_count": 187,
   "with_photos": 162,
   "species": [
@@ -1034,38 +1034,43 @@
       "common": "Black-bellied Whistling-Duck",
       "scientific": "Dendrocygna autumnalis",
       "rank": 64,
-      "count": 1,
+      "count": 2,
       "first": {
         "date": "2021-05-08",
         "place": "Palm Beach County, FL"
       },
       "latest": {
-        "date": "2021-05-08",
+        "date": "2021-07-17",
         "place": "Palm Beach County, FL",
         "photo": {
           "src": "/birds/black-bellied-whistling-duck/1.jpg",
           "thumb": "/birds/black-bellied-whistling-duck/1-thumb.jpg",
-          "date": "2021-05-08"
+          "date": "2021-07-17"
         }
       },
       "latest_photo": {
-        "date": "2021-05-08",
+        "date": "2021-07-17",
         "place": "Palm Beach County, FL",
         "photo": {
           "src": "/birds/black-bellied-whistling-duck/1.jpg",
           "thumb": "/birds/black-bellied-whistling-duck/1-thumb.jpg",
-          "date": "2021-05-08"
+          "date": "2021-07-17"
         }
       },
       "sightings": [
         {
-          "date": "2021-05-08",
+          "date": "2021-07-17",
           "place": "Palm Beach County, FL",
           "photo": {
             "src": "/birds/black-bellied-whistling-duck/1.jpg",
             "thumb": "/birds/black-bellied-whistling-duck/1-thumb.jpg",
-            "date": "2021-05-08"
+            "date": "2021-07-17"
           }
+        },
+        {
+          "date": "2021-05-08",
+          "place": "Palm Beach County, FL",
+          "photo": null
         }
       ]
     },
@@ -1341,38 +1346,43 @@
       "common": "Blue-winged Teal",
       "scientific": "Spatula discors",
       "rank": 175,
-      "count": 1,
+      "count": 2,
       "first": {
         "date": "2021-11-13",
         "place": "Wakulla County, FL"
       },
       "latest": {
-        "date": "2021-11-13",
+        "date": "2022-02-19",
         "place": "Wakulla County, FL",
         "photo": {
           "src": "/birds/blue-winged-teal/1.jpg",
           "thumb": "/birds/blue-winged-teal/1-thumb.jpg",
-          "date": "2021-11-13"
+          "date": "2022-02-19"
         }
       },
       "latest_photo": {
-        "date": "2021-11-13",
+        "date": "2022-02-19",
         "place": "Wakulla County, FL",
         "photo": {
           "src": "/birds/blue-winged-teal/1.jpg",
           "thumb": "/birds/blue-winged-teal/1-thumb.jpg",
-          "date": "2021-11-13"
+          "date": "2022-02-19"
         }
       },
       "sightings": [
         {
-          "date": "2021-11-13",
+          "date": "2022-02-19",
           "place": "Wakulla County, FL",
           "photo": {
             "src": "/birds/blue-winged-teal/1.jpg",
             "thumb": "/birds/blue-winged-teal/1-thumb.jpg",
-            "date": "2021-11-13"
+            "date": "2022-02-19"
           }
+        },
+        {
+          "date": "2021-11-13",
+          "place": "Wakulla County, FL",
+          "photo": null
         }
       ]
     },
@@ -1705,9 +1715,9 @@
       "common": "Carolina Chickadee",
       "scientific": "Poecile carolinensis",
       "rank": 7174,
-      "count": 2,
+      "count": 3,
       "first": {
-        "date": "2021-08-10",
+        "date": "8/UNK/2021",
         "place": "Henderson County, NC"
       },
       "latest": {
@@ -1746,6 +1756,11 @@
             "thumb": "/birds/carolina-chickadee/2-thumb.jpg",
             "date": "2021-08-10"
           }
+        },
+        {
+          "date": "8/UNK/2021",
+          "place": "Henderson County, NC",
+          "photo": null
         }
       ]
     },
@@ -2415,7 +2430,7 @@
       "common": "Double-crested Cormorant",
       "scientific": "Nannopterum auritum",
       "rank": 2602,
-      "count": 2,
+      "count": 3,
       "first": {
         "date": "2021-05-08",
         "place": "Palm Beach County, FL"
@@ -2449,13 +2464,18 @@
           }
         },
         {
-          "date": "2021-05-08",
+          "date": "2021-07-17",
           "place": "Palm Beach County, FL",
           "photo": {
             "src": "/birds/double-crested-cormorant/2.jpg",
             "thumb": "/birds/double-crested-cormorant/2-thumb.jpg",
-            "date": "2021-05-08"
+            "date": "2021-07-17"
           }
+        },
+        {
+          "date": "2021-05-08",
+          "place": "Palm Beach County, FL",
+          "photo": null
         }
       ]
     },
@@ -2657,9 +2677,9 @@
       "common": "Eastern Meadowlark",
       "scientific": "Sturnella magna",
       "rank": 10469,
-      "count": 2,
+      "count": 3,
       "first": {
-        "date": "2021-08-12",
+        "date": "8/UNK/2021",
         "place": "Henderson County, NC"
       },
       "latest": {
@@ -2698,6 +2718,11 @@
             "thumb": "/birds/eastern-meadowlark/2-thumb.jpg",
             "date": "2021-08-12"
           }
+        },
+        {
+          "date": "8/UNK/2021",
+          "place": "Henderson County, NC",
+          "photo": null
         }
       ]
     },
@@ -2983,9 +3008,9 @@
       "common": "Burrowing Owl",
       "scientific": "Athene cunicularia",
       "rank": 3061,
-      "count": 1,
+      "count": 2,
       "first": {
-        "date": "2021-07-28",
+        "date": "UNK",
         "place": "Broward County, FL"
       },
       "latest": {
@@ -3015,6 +3040,11 @@
             "thumb": "/birds/burrowing-owl/1-thumb.jpg",
             "date": "2021-07-28"
           }
+        },
+        {
+          "date": "UNK",
+          "place": "Broward County, FL",
+          "photo": null
         }
       ]
     },
@@ -3253,38 +3283,43 @@
       "common": "Gray-headed Swamphen",
       "scientific": "Porphyrio poliocephalus",
       "rank": 1862,
-      "count": 1,
+      "count": 2,
       "first": {
         "date": "2021-05-08",
         "place": "Palm Beach County, FL"
       },
       "latest": {
-        "date": "2021-05-08",
+        "date": "2021-07-17",
         "place": "Palm Beach County, FL",
         "photo": {
           "src": "/birds/gray-headed-swamphen/1.jpg",
           "thumb": "/birds/gray-headed-swamphen/1-thumb.jpg",
-          "date": "2021-05-08"
+          "date": "2021-07-17"
         }
       },
       "latest_photo": {
-        "date": "2021-05-08",
+        "date": "2021-07-17",
         "place": "Palm Beach County, FL",
         "photo": {
           "src": "/birds/gray-headed-swamphen/1.jpg",
           "thumb": "/birds/gray-headed-swamphen/1-thumb.jpg",
-          "date": "2021-05-08"
+          "date": "2021-07-17"
         }
       },
       "sightings": [
         {
-          "date": "2021-05-08",
+          "date": "2021-07-17",
           "place": "Palm Beach County, FL",
           "photo": {
             "src": "/birds/gray-headed-swamphen/1.jpg",
             "thumb": "/birds/gray-headed-swamphen/1-thumb.jpg",
-            "date": "2021-05-08"
+            "date": "2021-07-17"
           }
+        },
+        {
+          "date": "2021-05-08",
+          "place": "Palm Beach County, FL",
+          "photo": null
         }
       ]
     },
@@ -3804,38 +3839,43 @@
       "common": "Hooded Merganser",
       "scientific": "Lophodytes cucullatus",
       "rank": 250,
-      "count": 1,
+      "count": 2,
       "first": {
         "date": "2021-11-25",
         "place": "Leon County, FL"
       },
       "latest": {
-        "date": "2021-11-25",
+        "date": "2021-12-10",
         "place": "Leon County, FL",
         "photo": {
           "src": "/birds/hooded-merganser/1.jpg",
           "thumb": "/birds/hooded-merganser/1-thumb.jpg",
-          "date": "2021-11-25"
+          "date": "2021-12-10"
         }
       },
       "latest_photo": {
-        "date": "2021-11-25",
+        "date": "2021-12-10",
         "place": "Leon County, FL",
         "photo": {
           "src": "/birds/hooded-merganser/1.jpg",
           "thumb": "/birds/hooded-merganser/1-thumb.jpg",
-          "date": "2021-11-25"
+          "date": "2021-12-10"
         }
       },
       "sightings": [
         {
-          "date": "2021-11-25",
+          "date": "2021-12-10",
           "place": "Leon County, FL",
           "photo": {
             "src": "/birds/hooded-merganser/1.jpg",
             "thumb": "/birds/hooded-merganser/1-thumb.jpg",
-            "date": "2021-11-25"
+            "date": "2021-12-10"
           }
+        },
+        {
+          "date": "2021-11-25",
+          "place": "Leon County, FL",
+          "photo": null
         }
       ]
     },
@@ -3844,9 +3884,9 @@
       "common": "House Finch",
       "scientific": "Haemorhous mexicanus",
       "rank": 10133,
-      "count": 3,
+      "count": 4,
       "first": {
-        "date": "2021-08-10",
+        "date": "8/UNK/2021",
         "place": "Henderson County, NC"
       },
       "latest": {
@@ -3894,6 +3934,11 @@
             "thumb": "/birds/house-finch/3-thumb.jpg",
             "date": "2021-08-10"
           }
+        },
+        {
+          "date": "8/UNK/2021",
+          "place": "Henderson County, NC",
+          "photo": null
         }
       ]
     },
@@ -4246,7 +4291,7 @@
       "common": "Limpkin",
       "scientific": "Aramus guarauna",
       "rank": 1940,
-      "count": 4,
+      "count": 5,
       "first": {
         "date": "2021-05-09",
         "place": "Broward County, FL"
@@ -4298,13 +4343,18 @@
           }
         },
         {
-          "date": "2021-05-09",
+          "date": "2021-07-28",
           "place": "Broward County, FL",
           "photo": {
             "src": "/birds/limpkin/4.jpg",
             "thumb": "/birds/limpkin/4-thumb.jpg",
-            "date": "2021-05-09"
+            "date": "2021-07-28"
           }
+        },
+        {
+          "date": "2021-05-09",
+          "place": "Broward County, FL",
+          "photo": null
         }
       ]
     },
@@ -4625,7 +4675,7 @@
       "common": "Mottled Duck",
       "scientific": "Anas fulvigula",
       "rank": 195,
-      "count": 4,
+      "count": 5,
       "first": {
         "date": "2021-05-09",
         "place": "Broward County, FL"
@@ -4677,13 +4727,18 @@
           }
         },
         {
-          "date": "2021-05-09",
+          "date": "2021-07-31",
           "place": "Broward County, FL",
           "photo": {
             "src": "/birds/mottled-duck/4.jpg",
             "thumb": "/birds/mottled-duck/4-thumb.jpg",
-            "date": "2021-05-09"
+            "date": "2021-07-31"
           }
+        },
+        {
+          "date": "2021-05-09",
+          "place": "Broward County, FL",
+          "photo": null
         }
       ]
     },
@@ -5250,9 +5305,9 @@
       "common": "Painted Bunting",
       "scientific": "Passerina ciris",
       "rank": 10739,
-      "count": 1,
+      "count": 2,
       "first": {
-        "date": "2021-12-14",
+        "date": "UNK",
         "place": "Broward County, FL"
       },
       "latest": {
@@ -5282,6 +5337,11 @@
             "thumb": "/birds/painted-bunting/1-thumb.jpg",
             "date": "2021-12-14"
           }
+        },
+        {
+          "date": "UNK",
+          "place": "Broward County, FL",
+          "photo": null
         }
       ]
     },
@@ -6244,38 +6304,43 @@
       "common": "Ring-necked Duck",
       "scientific": "Aythya collaris",
       "rank": 229,
-      "count": 1,
+      "count": 2,
       "first": {
         "date": "2021-11-13",
         "place": "Wakulla County, FL"
       },
       "latest": {
-        "date": "2021-11-13",
+        "date": "2022-12-29",
         "place": "Wakulla County, FL",
         "photo": {
           "src": "/birds/ring-necked-duck/1.jpg",
           "thumb": "/birds/ring-necked-duck/1-thumb.jpg",
-          "date": "2021-11-13"
+          "date": "2022-12-29"
         }
       },
       "latest_photo": {
-        "date": "2021-11-13",
+        "date": "2022-12-29",
         "place": "Wakulla County, FL",
         "photo": {
           "src": "/birds/ring-necked-duck/1.jpg",
           "thumb": "/birds/ring-necked-duck/1-thumb.jpg",
-          "date": "2021-11-13"
+          "date": "2022-12-29"
         }
       },
       "sightings": [
         {
-          "date": "2021-11-13",
+          "date": "2022-12-29",
           "place": "Wakulla County, FL",
           "photo": {
             "src": "/birds/ring-necked-duck/1.jpg",
             "thumb": "/birds/ring-necked-duck/1-thumb.jpg",
-            "date": "2021-11-13"
+            "date": "2022-12-29"
           }
+        },
+        {
+          "date": "2021-11-13",
+          "place": "Wakulla County, FL",
+          "photo": null
         }
       ]
     },
@@ -7207,9 +7272,9 @@
       "common": "Tufted Titmouse",
       "scientific": "Baeolophus bicolor",
       "rank": 7161,
-      "count": 2,
+      "count": 3,
       "first": {
-        "date": "2021-08-12",
+        "date": "8/UNK/2021",
         "place": "Henderson County, NC"
       },
       "latest": {
@@ -7248,6 +7313,11 @@
             "thumb": "/birds/tufted-titmouse/2-thumb.jpg",
             "date": "2021-08-12"
           }
+        },
+        {
+          "date": "8/UNK/2021",
+          "place": "Henderson County, NC",
+          "photo": null
         }
       ]
     },
