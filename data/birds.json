@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T22:45:19-05:00",
-  "species_count": 189,
+  "generated": "2026-10-21T23:36:54-05:00",
+  "species_count": 187,
   "with_photos": 162,
   "species": [
     {
@@ -1828,22 +1828,43 @@
       ]
     },
     {
-      "slug": "yellow-billed-egret",
-      "common": "Yellow-billed Egret",
-      "scientific": "Ardea brachyrhyncha",
-      "rank": 2708,
-      "count": 1,
+      "slug": "western-cattle-egret",
+      "common": "Western Cattle-Egret",
+      "scientific": "Ardea ibis",
+      "rank": 2711,
+      "count": 2,
       "first": {
         "date": "2021-04-09",
         "place": "Palm Beach County, FL"
       },
       "latest": {
-        "date": "2021-04-09",
-        "place": "Palm Beach County, FL",
-        "photo": null
+        "date": "2021-08-28",
+        "place": "Leon County, FL",
+        "photo": {
+          "src": "/birds/western-cattle-egret/1.jpg",
+          "thumb": "/birds/western-cattle-egret/1-thumb.jpg",
+          "date": "2021-08-28"
+        }
       },
-      "latest_photo": null,
+      "latest_photo": {
+        "date": "2021-08-28",
+        "place": "Leon County, FL",
+        "photo": {
+          "src": "/birds/western-cattle-egret/1.jpg",
+          "thumb": "/birds/western-cattle-egret/1-thumb.jpg",
+          "date": "2021-08-28"
+        }
+      },
       "sightings": [
+        {
+          "date": "2021-08-28",
+          "place": "Leon County, FL",
+          "photo": {
+            "src": "/birds/western-cattle-egret/1.jpg",
+            "thumb": "/birds/western-cattle-egret/1-thumb.jpg",
+            "date": "2021-08-28"
+          }
+        },
         {
           "date": "2021-04-09",
           "place": "Palm Beach County, FL",
@@ -3739,10 +3760,10 @@
       ]
     },
     {
-      "slug": "european-herring-gull",
-      "common": "European Herring Gull",
-      "scientific": "Larus argentatus",
-      "rank": 2316,
+      "slug": "american-herring-gull",
+      "common": "American Herring Gull",
+      "scientific": "Larus smithsonianus",
+      "rank": 2325,
       "count": 1,
       "first": {
         "date": "2021-07-09",
@@ -3751,14 +3772,30 @@
       "latest": {
         "date": "2021-07-09",
         "place": "Manitowoc County, WI",
-        "photo": null
+        "photo": {
+          "src": "/birds/american-herring-gull/1.jpg",
+          "thumb": "/birds/american-herring-gull/1-thumb.jpg",
+          "date": "2021-07-09"
+        }
       },
-      "latest_photo": null,
+      "latest_photo": {
+        "date": "2021-07-09",
+        "place": "Manitowoc County, WI",
+        "photo": {
+          "src": "/birds/american-herring-gull/1.jpg",
+          "thumb": "/birds/american-herring-gull/1-thumb.jpg",
+          "date": "2021-07-09"
+        }
+      },
       "sightings": [
         {
           "date": "2021-07-09",
           "place": "Manitowoc County, WI",
-          "photo": null
+          "photo": {
+            "src": "/birds/american-herring-gull/1.jpg",
+            "thumb": "/birds/american-herring-gull/1-thumb.jpg",
+            "date": "2021-07-09"
+          }
         }
       ]
     },
@@ -8033,86 +8070,6 @@
             "src": "/birds/merlin/2.jpg",
             "thumb": "/birds/merlin/2-thumb.jpg",
             "date": "2021-12-29"
-          }
-        }
-      ]
-    },
-    {
-      "slug": "american-herring-gull",
-      "common": "American Herring Gull",
-      "scientific": "Larus smithsonianus",
-      "rank": 2325,
-      "count": 1,
-      "first": {
-        "date": "2021-07-09",
-        "place": "Manitowoc County, WI"
-      },
-      "latest": {
-        "date": "2021-07-09",
-        "place": "Manitowoc County, WI",
-        "photo": {
-          "src": "/birds/american-herring-gull/1.jpg",
-          "thumb": "/birds/american-herring-gull/1-thumb.jpg",
-          "date": "2021-07-09"
-        }
-      },
-      "latest_photo": {
-        "date": "2021-07-09",
-        "place": "Manitowoc County, WI",
-        "photo": {
-          "src": "/birds/american-herring-gull/1.jpg",
-          "thumb": "/birds/american-herring-gull/1-thumb.jpg",
-          "date": "2021-07-09"
-        }
-      },
-      "sightings": [
-        {
-          "date": "2021-07-09",
-          "place": "Manitowoc County, WI",
-          "photo": {
-            "src": "/birds/american-herring-gull/1.jpg",
-            "thumb": "/birds/american-herring-gull/1-thumb.jpg",
-            "date": "2021-07-09"
-          }
-        }
-      ]
-    },
-    {
-      "slug": "western-cattle-egret",
-      "common": "Western Cattle-Egret",
-      "scientific": "Ardea ibis",
-      "rank": 2711,
-      "count": 1,
-      "first": {
-        "date": "2021-08-28",
-        "place": "Leon County, FL"
-      },
-      "latest": {
-        "date": "2021-08-28",
-        "place": "Leon County, FL",
-        "photo": {
-          "src": "/birds/western-cattle-egret/1.jpg",
-          "thumb": "/birds/western-cattle-egret/1-thumb.jpg",
-          "date": "2021-08-28"
-        }
-      },
-      "latest_photo": {
-        "date": "2021-08-28",
-        "place": "Leon County, FL",
-        "photo": {
-          "src": "/birds/western-cattle-egret/1.jpg",
-          "thumb": "/birds/western-cattle-egret/1-thumb.jpg",
-          "date": "2021-08-28"
-        }
-      },
-      "sightings": [
-        {
-          "date": "2021-08-28",
-          "place": "Leon County, FL",
-          "photo": {
-            "src": "/birds/western-cattle-egret/1.jpg",
-            "thumb": "/birds/western-cattle-egret/1-thumb.jpg",
-            "date": "2021-08-28"
           }
         }
       ]
